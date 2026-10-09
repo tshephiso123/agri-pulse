@@ -90,3 +90,15 @@ Phase-3 verification: the combined phase-1/phase-2/phase-3 suite passed all 63 b
 ## Branding adjustment (9 October 2026)
 
 At the user's request, the displayed app name, browser title and installable PWA name are now AgriSmart. Decorative icons above the three tool-home headings are removed; navigation and labelled controls retain their icons. Internal storage names, encryption identifiers, backup format and sync headers retain their compatibility identifiers to preserve existing records. Phase 4 remains pending.
+
+## Phase 4 and crop-scope update (9 October 2026)
+
+The user's phase-4 follow-up expands Crop check to maize, tomato, beans and cabbage and adds farm onboarding. Language remains the first launch screen, followed by optional name/community, crop selection, optional hectares and review. Profile preferences use agrismart_farm_setup in localStorage; they are not encrypted field notes and are never uploaded. A storage failure offers a session-only continuation. Farm setup can be edited from the Crop check home.
+
+Maize results show the complete existing management list immediately. Crop selection adds a shared first step and continuous diagnosis progress. Other crops use a cautious general symptom/inspection flow with no invented diagnoses or doses; docs/ui/crop-checks.md records the primary content source and limits. New copy remains English only. Existing storage/encryption/sync/API implementations and identifiers are unchanged.
+
+Phase 4 migrates old browser selectors while preserving encrypted sync, recovery, opt-in/withdrawal and background-worker assertions. Tests/e2e/phase4.spec.js captures actual loading/error/saving/backup/restore/account/sync/conflict states at phone/desktop in English, pseudo-locale and enlarged text. Simulated slow/failing storage and requests are test-only; there are no production demo-state hooks. scripts/audit-ui-accessibility.mjs runs isolated Lighthouse snapshots and saves reports under docs/ui/phase4/lighthouse/. .tools is ignored; the audit tool adds no application dependency. Record final acceptance results after the full run.
+
+Final phase-4 audit: 62 phone/desktop Lighthouse accessibility snapshots scored 100 with no failed automated audits. Build, lint, 17 Node cases and intended token contrast checks pass. The six full state galleries contain 91 screenshots each (546 total). Follow docs/ui/phase4/README.md and index.html for evidence. Browser screenshots use bounded retries for transient Windows file locks only; app assertions and operations are never retried by this helper. Real Android and localization/agronomic review remain pending.
+
+Final browser acceptance: all 100 scenarios passed across the full run and 12 targeted Windows screenshot-write rechecks. The full run's interruptions were filesystem writes only. docs/ui/phase4/acceptance.json records the final combined evidence, and both raw reports are retained. All six 91-state gallery runs passed. Phase 4 implementation and automated acceptance are complete; the explicitly listed real-device/content reviews remain external acceptance tasks.

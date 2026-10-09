@@ -46,8 +46,8 @@ New UI keys are authored in English only. Existing draft catalogs are preserved;
 | ui_choose_language | Choose your language | nso, ve, ts |
 | ui_language_help | Choose the language you want to use. You can change it later. | nso, ve, ts |
 | ui_language_continue | Continue | nso, ve, ts |
-| ui_diagnose_home | Check maize early | nso, ve, ts |
-| ui_diagnose_description | Look for early Fall Armyworm signs before maize damage spreads. | nso, ve, ts |
+| ui_diagnose_home | Check your crops early | nso, ve, ts |
+| ui_diagnose_description | Choose your crop, check early signs and see what to do next. | nso, ve, ts |
 | ui_calculator_home | Fertilizer calculator | nso, ve, ts |
 | ui_calculator_description | Work out a sample fertilizer amount for your field. | nso, ve, ts |
 | ui_logbook_home | Farm logbook | nso, ve, ts |
@@ -65,7 +65,7 @@ New UI keys are authored in English only. Existing draft catalogs are preserved;
 | ui_state_preview | Interface states | nso, ve, ts |
 | ui_state_preview_description | Shared status examples for design review. | nso, ve, ts |
 | ui_brand | AgriSmart | nso, ve, ts |
-| ui_nav_diagnose | Maize check | nso, ve, ts |
+| ui_nav_diagnose | Crop check | nso, ve, ts |
 | ui_nav_calculator | Calculator | nso, ve, ts |
 | ui_nav_logbook | Records | nso, ve, ts |
 | ui_calc_crop_question | Which crop? | nso, ve, ts |
@@ -94,3 +94,51 @@ New UI keys are authored in English only. Existing draft catalogs are preserved;
 | ui_done | Done | nso, ve, ts |
 | ui_apply_choice | Apply choice | nso, ve, ts |
 | ui_choose_version | Which version should we keep? | nso, ve, ts |
+| ui_crop_maize | Maize | nso, ve, ts |
+| ui_crop_tomato | Tomato | nso, ve, ts |
+| ui_crop_beans | Beans | nso, ve, ts |
+| ui_crop_cabbage | Cabbage | nso, ve, ts |
+| ui_crop_question | Which crop are you checking? | nso, ve, ts |
+| ui_crop_scope | Maize has a Fall Armyworm checklist. Tomato, beans and cabbage have general symptom checks and inspection guidance. | nso, ve, ts |
+| ui_crop_intro | Check your {{crop}} | nso, ve, ts |
+| ui_crop_general_intro | Look at several plants in different parts of your field. These observations help you decide what to inspect next. | nso, ve, ts |
+| ui_crop_chewing | Are there chewed leaves, holes or insects on the plants? | nso, ve, ts |
+| ui_crop_spots | Are there unusual spots, yellow patches or damaged leaves? | nso, ve, ts |
+| ui_crop_wilting | Are plants wilting or growing poorly? | nso, ve, ts |
+| ui_crop_result_clear | No signs reported on your {{crop}} | nso, ve, ts |
+| ui_crop_result_review | Your {{crop}} needs closer inspection | nso, ve, ts |
+| ui_crop_limit | These signs can have several causes. This check cannot identify a specific pest or disease. | nso, ve, ts |
+| ui_do_now | What to do now | nso, ve, ts |
+| ui_crop_guidance_inspect | Inspect both sides of leaves, growing tips and damaged parts. Look for insects and compare affected plants with healthy plants. | nso, ve, ts |
+| ui_crop_guidance_record | Record the crop, date, signs and affected parts of the field in your logbook. Check regularly for new damage. | nso, ve, ts |
+| ui_crop_guidance_confirm | Ask your local agricultural extension adviser to identify the cause, especially if signs spread or plants wilt. | nso, ve, ts |
+| ui_crop_guidance_treatment | Choose treatment after identifying the cause. Before using a pesticide, follow local advice and the registered product label; do not guess a dose. | nso, ve, ts |
+| ui_crop_again | Check another crop | nso, ve, ts |
+| ui_crop_source | Crop inspection reference: UF/IFAS | nso, ve, ts |
+| ui_external_source | The guidance above works offline. Opening the source website needs internet. | nso, ve, ts |
+| ui_farm_about | Tell us about your farm | nso, ve, ts |
+| ui_farm_welcome | Set up AgriSmart for the crops you grow. You can change these details later. | nso, ve, ts |
+| ui_farm_name | Farm name (optional) | nso, ve, ts |
+| ui_farm_community | Community (optional) | nso, ve, ts |
+| ui_farm_privacy | Setup details stay on this phone and are not uploaded. Keep private field notes in your protected logbook. | nso, ve, ts |
+| ui_farm_crops | What do you grow? | nso, ve, ts |
+| ui_farm_choose_crops | Choose all the crops you grow. | nso, ve, ts |
+| ui_farm_size | How big is your farm? | nso, ve, ts |
+| ui_farm_hectares | Farm size in hectares (optional) | nso, ve, ts |
+| ui_farm_size_help | An estimate is fine. Leave this blank if you are not sure. | nso, ve, ts |
+| ui_farm_review | Review your farm setup | nso, ve, ts |
+| ui_farm_crop_required | Choose at least one crop. | nso, ve, ts |
+| ui_farm_size_error | Enter a farm size greater than zero, or leave it blank. | nso, ve, ts |
+| ui_farm_save_error | We could not save your setup on this phone. Try again, or continue for now. | nso, ve, ts |
+| ui_farm_finish | Start using AgriSmart | nso, ve, ts |
+| ui_not_provided | Not provided | nso, ve, ts |
+| ui_your_crops | Your crops: {{crops}} | nso, ve, ts |
+| ui_edit_farm | Edit farm setup | nso, ve, ts |
+| ui_restore_backup | Restore my records | nso, ve, ts |
+| ui_choose_backup | Choose an encrypted backup file. | nso, ve, ts |
+| ui_backup_restored | Records restored on this phone. | nso, ve, ts |
+| ui_record_storage_error | The phone could not open or save these records. Check available storage and try again. | nso, ve, ts |
+| ui_connection_error | The connection did not finish. Check your connection and try again. Saved records stay on this phone. | nso, ve, ts |
+| ui_passphrase_error | The passphrase did not open your records. Check the spelling and try again. The backup may be damaged if the passphrase is correct. | nso, ve, ts |
+| ui_data_error | We could not read the supplied data. Check the file or details and try again. | nso, ve, ts |
+| ui_continue_for_now | Continue for now | nso, ve, ts |

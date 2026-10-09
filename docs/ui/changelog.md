@@ -47,3 +47,15 @@ Acceptance: 63 combined phase-1/2/3 browser cases and 17 Node cases passed; buil
 ## Branding adjustment
 
 Renamed the visible app, browser title and PWA manifest to AgriSmart. Removed decorative icons above tool-home headings. Storage and protocol identifiers retain compatibility with existing records.
+
+## Phase 4 — crop checks, farm setup and full-state acceptance (10 October 2026)
+
+- Renamed the diagnostic navigation and home to Crop check. Added maize, tomato, beans and cabbage selection. Maize retains the offline FAW library and now displays the complete management list on the result. Other crops have sample general symptom triage and immediate inspection/adviser guidance; crop-specific diagnoses need validation.
+- Added first-launch farm questions after language selection: optional farm name/community, crops and optional hectares. Preferences stay on this phone and can be edited. A storage error supports retry or session-only continuation.
+- Added bounded restore actions, friendly storage/connection feedback, distinct sync/conflict states and matching visible/accessibility labels. Existing encrypted storage, opt-in sync and backend protocols are preserved.
+- Migrated legacy browser checks to the shared wizard flows. Captured phone/desktop screen states in English, +40% pseudo-locale and 200% text, including slow/failed storage, saving, account states, offline pending records, encryption recovery and conflict resolution.
+- Added normal-browser PWA installability, cold offline four-crop checks, and isolated Lighthouse accessibility snapshots. Every one of the 62 phone/desktop accessibility snapshots scored 100 with no failed automated audits. Build, lint, 17 Node tests and all intended contrast checks pass.
+
+Screenshots, machine-readable browser results and audit reports are in docs/ui/phase4/. New English-only keys are listed for the localization lead. Real Android checks, reviewed translations and local agronomic validation remain pending; sample labels remain visible.
+
+Final browser verification: 100 scenarios pass across the complete run and targeted rechecks for 12 Windows screenshot-write interruptions; all six gallery runs pass. The acceptance summary and raw reports are retained in docs/ui/phase4/. Phase 4 implementation and automated checks are complete.
