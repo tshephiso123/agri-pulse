@@ -1,0 +1,32 @@
+1. Imeile goba phasewete ga se ya nepagala.
+2. Tsena go nyalantšha.
+3. Phasewete e a hlokahala.
+4. Password e fosahetseng.
+5. Sešupanako se se sa šomego.
+6. Phetogo ya diphedi ye e sa šomego ye e šitišitšwego.
+7. THOMA KA pela
+8. Mutation ID reused le dikahare fapaneng.
+9. Rekoto fetolwa ka sesebediswa se seng. Boeletša thulano yeo.
+10. Phošo ya seva.
+11. AgriPulse backend mamela ka boema-kepe
+12. Poone
+13. Tamati
+14. E balwa bakeng sa {{area}} ha. Go fetoša dintlha tša gago go hlatswa tekanyetšo ye.
+15. {{count}} e sa emetse.
+16. Palo ya monontšha ye e akantšwego
+17. Re be re sa kgone go bala palo ya monontšha. Lekola bogolo bja tšhemo ya gago gomme o leke gape.
+18. Palo ya monontšha wa mohlala fela. Kgopela moeletši wa temo wa lefelong la geno go tiišetša dipalo tše pele ga tšhomišo.
+19. Direkoto tša gago tša polasa di bulegile.
+20. Mabala a masehla ka makhasi a lehea
+21. Mekoti ye e sa lekalekanego ka matlakaleng a lehea
+22. E bolokilwe ka polokeho mo founong ena. E šireleditšwe ka polelwana ya gago ya go tsena.
+23. Boloka diphetogo
+24. Akhaonto ya leru
+25. Go lekola kgokagano ya gago...
+26. Direkoto di dula mo founong ye go fihlela o di abelana.
+27. Diphetogo tša gago ga se tša phethwa. Hle leka gape.
+28. Lekola dintlha tša gago gomme o leke gape.
+29. Phetolelo ya motšhene. Mantšu a mangwe a ka ba a fošagetše.
+30. Ditaelo tša dikhemikhale tša temo di bontšhwa ka Seisemane go fihlela di hlahlobja.
+31. Direkoto tša gago di šireleditšwe ke polelwana ya gago ya go tsena. E gopole: re ka se go sete gape. Diriša phasewete ye e fapanego ya akhaonto ya gago ya leru.
+32. Palo ya monontšha wo o o hlokago e tla tšwelela mo.

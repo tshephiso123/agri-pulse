@@ -1,0 +1,88 @@
+1. E ka se kgone go hlahloba direkhoto tše di bolokilwego. Laetša letlakala gape go leka gape.
+2. Sync ga se ya kgona go fetša. Direkoto tša gago tše di bolokilwego di dula mo founong ye. Leka gape ge o kgokagantšwe.
+3. Inthaneteng
+4. Offline - disebediswa ntse sebetsa
+5. Go nyalantšha...
+6. Nyalantšha bjale
+7. Re be re sa kgone go fihlelela polokelo ya puku ya dipego. Lekola dipeakanyo tša gago tša polokelo ya sephephediši gomme o laetše letlakala le gape.
+8. Šomiša dikelo tše di fapanego tša phasewete ya akhaonto ya gago le polelwana ya phasewete ya go šitiša.
+9. Hlama polokelo ya gago ya selegae pele o ingwadiša.
+10. Signed in. Ke fela direkhoto tšeo o kgethago go di abelana tšeo di tlago go tsenya.
+11. Logbook e notletšwe
+12. Notlolla puku ya gago ya dipego
+13. Šireletša puku ya gago ya dipego
+14. Passphrase ya gago ya encryption e dula mo founong ye. E boloke e bolokegile: polelwana ya go tsena yeo e lebetšwego e ka se hwetšwe. Diriša phasewete ye e arogilego ya akhaonto ya gago.
+15. Dipolelwana tša phasewete ga di swane.
+16. Šomiša bonnyane ditlhaka tše 12, go swana le mantšu a mmalwa ao o ka a gopolago.
+17. Polelwana ya go tsena ya go šitiša
+18. Netefatša polelwana ye mpsha ya go feta
+19. Ke kgopela le eme...
+20. Notlolla ka ntle ga inthanete
+21. Hlama polokelo ya selegae
+22. Notlela puku ya dipego
+23. Bekapo ya direkoto tše di šitišitšwego
+24. Tsošološa bekapo ye e šitišitšwego (tsenya polelwana ya yona ya go tsena ka godimo). Direkoto tsošološa bjalo ka Selegae-Fela; go saena ka morago go tloša dikopi dife goba dife tša leru tše di lego gona.
+25. Backup e kgolo kudu.
+26. Akhaonto ya leru ya boikgethelo
+27. Tsenya polelwana ya gago ya go tsena ya go šitiša ka godimo go kgokaganya goba go bušetša polokelo ya gago ya polokelo. Direkoto tša Selegae-Fela di dula mo founong. HTTPS e šireletša dintlha tša akhaonto ya gago; seva e boloka direkoto tša tšhemo tše di šitišitšwego.
+28. Imeile
+29. Phasewete ya akhaonto (bonyane ditlhaka tše 12) .
+30. Saena ka gare
+31. Ngwadiša polokelo ye
+32. O saennwe ka ntle. Direkoto tša lefelong leo di a bolokwa.
+33. Saena go tšwa
+34. Akhaonto ga e swane le polokelo ye.
+35. Thomelontle ye e balwago e taoneloutšwa. Faele ye e na le tshedimošo ya motho yeo e sa šitišwago.
+36. Romelantle ya data ya leru ye e balwago
+37. Phimola akhaonto ya gago ya leru le direkhoto tša yona? Direkoto tša lefelong leo di dula mo founong ye. Se se ka se dirwe morago.
+38. Akhaonto ya leru e phumotšwe. Direkoto tša lefelong leo di a bolokwa.
+39. Phimola akhaonto ya leru
+40. Ke kgopela le eme. Re šoma kgopelo ya gago...
+41. Khansela
+42. Go phumola...
+43. Phimola tsenyo
+44. Polokelo ye e fošagetšego.
+45. Šomiša polelwana ya go tsena ya bonyane ditlhaka tše 12. E boloke e bolokegile: re ka se kgone go e bušetša morago.
+46. Sebopego sa polokelo yeo e sa thekgwego.
+47. Passphrase e fošagetše goba polokelo e senyegile.
+48. Mogala wo o na le vault ye nngwe. E romele ntle pele o šomiša akhaonto ye e fapanego.
+49. Notlolla le go romela ntle dikeno tša gago tša selegae tše di lego gona pele o bušetša polokelo ye nngwe.
+50. Notlolla puku ya gago ya dipego pele.
+51. Go tsena ga go sa hwetšagala.
+52. Rekoto ye e fetogile ge o be o rulaganya. E bule gape gomme o hlahlobje diteng tša moragorago pele o e boloka.
+53. Bekapo ye e sa šomego.
+54. Tsošološa e nyaka mogala wo o se nago polokelo yeo e lego gona.
+55. Sephephediši se se hloka thekgo ya Dinotlolo tša Wepe bakeng sa polokelo ye e bolokegilego le go nyalantšha. Šomiša sephephediši sa bjale godimo ga HTTPS goba localhost.
+56. Kgopelo e paletšwe.
+57. Tsena go kgontšha go nyalantšha ga leru.
+58. Go leta go leka gape.
+59. Akhaonto yeo e saennwego ga e swane le polokelo ye.
+60. Sešene e fedile. Tsena gape go nyalantšha.
+61. Ga se ya kgona go netefatša akhaonto ya leru.
+62. Mothaladi ke wa polokelo ye nngwe.
+63. Thulano ya go nyalantšha. Boeletša rekoto pele o tšwela pele.
+64. Kgokagano e paletšwe. Diphetogo tše di šitišitšwego di beilwe mothalong.
+65. Temogo ya go nyalantšha ye e sa šomego.
+66. Go tlošwa ga leru go beilwe mothalong.
+67. Go tlošwa ga leru go nyaka maiteko a mangwe a go nyalantšha.
+68. Go nyalantšha ga leru go fedile.
+69. Ga se ya kgona go taonelouta diphetogo tša leru.
+70. Rekoto ye e sa emetšego e swanetše go rarollwa pele ga go taonelouta.
+71. Akhaonto ga e swane le polokelo.
+72. Rekoto ya leru e ile ya fetoga gape. Boeletša khopi ya moragorago pele o kgetha.
+73. Šomiša tirišo/json.
+74. Kgopelo ye kgolo kudu.
+75. Selo sa JSON se a nyakega.
+76. Selo sa JSON seo se sa šomego.
+77. PUBLIC_ORIGIN e swanetše go šomiša HTTPS tšweletšong.
+78. Sekema sa polokelo ya tshedimošo ke se sefsa go feta kamoo seva ye e thekgago ka gona.
+79. Mokgwa ga o dumelelwa.
+80. Ga se ya hwetšwa.
+81. Aga frontend ka npm run build.
+82. Tšwago e gannwe.
+83. Kgopelo ya go selaganya lefelo e gannwe.
+84. Hlogo ya tšhireletšo ya kgopelo ye e hlaelelago.
+85. Leka gape kgauswinyane.
+86. Šomiša imeile ye e šomago le phasewete ya ditlhaka tše 12 go ya go tše 128.
+87. Polokelo ye e sa šomego ye e šitišitšwego.
+88. Imeile goba polokelo e šetše e ngwadišitšwe.

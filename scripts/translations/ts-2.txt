@@ -1,0 +1,32 @@
+1. Imeyili kumbe phaswedi a swi lulamanga.
+2. Nghena ku fambisana.
+3. Password ya laveka.
+4. Password yi hoxile.
+5. Xikombiso lexi nga tirhiki.
+6. Mutation leyi nga tirhiki leyi pfaleriweke.
+7. SUNGULA HI KU HATLISA
+8. Mutation ID yi tirhisiwa nakambe na swilo swo hambana.
+9. Rhekhodo leyi cinciweke eka xitirhisiwa xin’wana. Pfuxeta mpfilumpfilu.
+10. Xihoxo xa sevha.
+11. AgriPulse backend yi yingisela eka port
+12. Mavele
+13. Matamatisi
+14. Ku hlayeriwa eka {{area}} ha. Ku cinca vuxokoxoko bya wena swi basisa xiringanyeto lexi.
+15. {{count}} yi yimele.
+16. Nhlayo ya manyoro leyi ringanyetiweke
+17. A hi swi kotanga ku hlayela nhlayo ya manyoro. Languta mpimo wa nsimu ya wena kutani u ringeta nakambe.
+18. Xikombiso xa nhlayo ya manyoro ntsena. Kombela mutsundzuxi wa vurimi wa ndzhawu ya wena ku tiyisisa nhlayo leyi loko unga se yi tirhisa.
+19. Tirhekhodo ta wena ta purasi ti pfulekile.
+20. Swiphepherhele swo tshwuka eka matluka ya mavele
+21. Tiphuphu leti nga ringaniki eka matluka ya mavele
+22. Yi hlayisiwile hi ku hlayiseka eka riqingho leri. Ku sirheleriwa hi xivulavulelo xa wena xa le handle.
+23. Hlayisa ku cinca
+24. Akhawunti ya le mapapa
+25. Ku kambela vuhlanganisi bya wena...
+26. Tirhekhodo ti tshama eka foni leyi ku kondza u ti avelana.
+27. Ku cinca ka wena a ku hetiwa. Hi kombela u ringeta nakambe.
+28. Languta vuxokoxoko bya wena ivi u ringeta nakambe.
+29. Vuhundzuluxi bya muchini. Marito man’wana ma nga ha va ma hoxile.
+30. Swiletelo swa tikhemikhali ta vurimi swi kombisiwa hi Xinghezi ku kondza swi kamberiwa.
+31. Tirhekhodo ta wena ti sirheleriwa hi xivulwa xa wena xa pasi. Swi tsundzuke: a hi nge swi koti ku swi tlherisela eka wena. Tirhisa phaswedi yo hambana ya akhawunti ya wena ya le mapapa.
+32. Nhlayo ya manyoro lawa u ma lavaka yi ta humelela laha.
