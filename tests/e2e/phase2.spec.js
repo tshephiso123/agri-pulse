@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { screenshot } from './helpers/screenshot';
+import { test, expect } from './helpers/fixtures';
 import { readFileSync } from 'node:fs';
 import { openCalculator, enterAreaStep, primary, back, assertSafeActions } from './helpers/calculator';
 const sizes=[[360,640],[390,844],[768,1024],[1366,768],[360,320],[640,360]];
@@ -7,7 +8,7 @@ for(const [width,height] of sizes) for(const mode of ['english','pseudo','large-
     await page.setViewportSize({width,height});
     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');
     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');
-    const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };
+    const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await screenshot(page,{path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };
     await expect(page.locator('.tool-nav')).toHaveCount(0);
     await expect(page.locator('#crop-maize')).toBeChecked();
     await snapshot('crop');

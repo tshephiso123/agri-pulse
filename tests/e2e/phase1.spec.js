@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { screenshot } from './helpers/screenshot';
+import { test, expect } from './helpers/fixtures';
 import { mkdirSync } from 'node:fs';
 const sizes = [[360,640], [390,844], [768,1024], [1366,768], [360,320], [640,360]];
 async function safePrimary(page) {
@@ -17,19 +18,19 @@ for (const [width,height] of sizes) for (const mode of ['english','pseudo','larg
     await expect(page.getByRole('radio')).toHaveCount(4);
     for (const name of ['English','Sepedi','Tshivenda','itsonga']) await expect(page.getByRole('radio', { name: name === 'itsonga' ? 'itsonga' : name, exact: true })).toHaveCount(name === 'itsonga' ? 0 : 1);
     await safePrimary(page);
-    if (mode === 'english' || width === 360) await page.screenshot({ path: `docs/ui/phase1/${width}x${height}-${mode}-language.png` });
+    if (mode === 'english' || width === 360) await screenshot(page,{ path: `docs/ui/phase1/${width}x${height}-${mode}-language.png` });
     await page.locator('.wizard-actions .ui-primary').click();
     await expect(page.locator('.tool-nav')).toBeVisible();
     for (let index=0;index<3;index++) {
       await page.locator('.tool-nav button').nth(index).click();
       await safePrimary(page);
-      if ([360,1366].includes(width)) await page.screenshot({ path: `docs/ui/phase1/${width}x${height}-${mode}-home-${index}.png` });
+      if ([360,1366].includes(width)) await screenshot(page,{ path: `docs/ui/phase1/${width}x${height}-${mode}-home-${index}.png` });
     }
     await page.locator('.tool-nav button').nth(0).click();
     await page.locator('.wizard-actions .ui-primary').click();
     await expect(page.locator('.tool-nav')).toHaveCount(0);
     await safePrimary(page);
-    if ([360,1366].includes(width)) await page.screenshot({ path: `docs/ui/phase1/${width}x${height}-${mode}-wizard-frame.png` });
+    if ([360,1366].includes(width)) await screenshot(page,{ path: `docs/ui/phase1/${width}x${height}-${mode}-wizard-frame.png` });
     await page.locator('.wizard-actions .ui-outline').click();
     await expect(page.locator('.tool-nav')).toBeVisible();
   });
@@ -46,7 +47,7 @@ test('phase 1 offline reload retains language, local font and status dialog keyb
   await expect(page.locator('.tool-nav')).toBeVisible();
   await page.locator('.status-chip').click();
   await expect(page.getByRole('dialog')).toBeVisible();
-  await page.screenshot({path:'docs/ui/phase1/offline-status.png'});
+  await screenshot(page,{path:'docs/ui/phase1/offline-status.png'});
   await page.keyboard.press('Escape');
   await expect(page.locator('.status-chip')).toBeFocused();
   const client=await context.newCDPSession(page);
@@ -57,6 +58,6 @@ test('phase 1 offline reload retains language, local font and status dialog keyb
   const {fonts}=await client.send('CSS.getPlatformFontsForNode',{nodeId});
   expect(fonts.length).toBeGreaterThan(0);
   expect(fonts.every(font=>font.isCustomFont && font.familyName==='Noto Sans')).toBe(true);
-  await page.screenshot({path:'docs/ui/phase1/tshivenda-glyphs.png'});
+  await screenshot(page,{path:'docs/ui/phase1/tshivenda-glyphs.png'});
 });
 

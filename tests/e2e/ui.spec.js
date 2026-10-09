@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './helpers/fixtures';
+import { openRecords, openVault, saveEntry } from './helpers/logbook';
 import { openCalculator, enterAreaStep, primary, back } from './helpers/calculator';
 
 test('calculator explains invalid input and clears stale results', async ({ page }) => {
@@ -22,14 +23,7 @@ test('phone layout fits and delete dialog returns focus on Escape', async ({ pag
   await page.goto('/');
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: 'test-results/ui-phone.png', fullPage: true });
-  await page.getByRole('button', { name: 'Farm Logbook', exact: true }).click();
-  await page.getByLabel('Encryption passphrase', { exact: true }).fill('fictional farm passphrase');
-  await page.getByLabel('Confirm new passphrase').fill('fictional farm passphrase');
-  await page.getByRole('button', { name: 'Create local vault', exact: true }).click();
-  await expect(page.getByText('No entries yet.')).toBeVisible();
-  await page.getByLabel('Activity', { exact: true }).fill('Fictional planting');
-  await page.getByRole('button', { name: 'Save entry', exact: true }).click();
-  await expect(page.locator('article')).toContainText('Fictional planting');
+  await openRecords(page);await openVault(page,'fictional farm passphrase',true);await expect(page.getByText('No entries yet.')).toBeVisible();await saveEntry(page,'Fictional planting');await page.locator('article button').click();
   await page.getByRole('button', { name: 'Delete entry', exact: true }).click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await page.keyboard.press('Escape');
