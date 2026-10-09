@@ -1,0 +1,647 @@
+{
+  "date": "2026-10-10",
+  "browser": {
+    "cases": [
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x640 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x640 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x640 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 390x844 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 390x844 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 390x844 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 768x1024 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 768x1024 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 768x1024 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 1366x768 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 1366x768 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 1366x768 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x320 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x320 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 360x320 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 640x360 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 640x360 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "crop and farm setup 640x360 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "AgriSmart manifest remains installable with local assets and an offline shell",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "crop.spec.js",
+        "title": "farm preferences can stay in the current session when phone storage is unavailable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "faw.spec.js",
+        "title": "FAW opens through crop choice, handles uncertainty, clears stale advice and resets",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "faw.spec.js",
+        "title": "Sepedi FAW library and immediate guidance work after cold offline reload",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "localization.spec.js",
+        "title": "nso switches the full interface offline and survives reopening",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "localization.spec.js",
+        "title": "ts switches the full interface offline and survives reopening",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "localization.spec.js",
+        "title": "ve switches the full interface offline and survives reopening",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "localization.spec.js",
+        "title": "a legacy Sepedi preference migrates rather than becoming Northern Sami",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x640 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x640 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x640 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 390x844 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 390x844 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 390x844 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 768x1024 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 768x1024 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 768x1024 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 1366x768 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 1366x768 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 1366x768 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x320 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x320 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 360x320 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 640x360 english: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 640x360 pseudo: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 640x360 large-text: language and tool homes keep primary actions reachable",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase1.spec.js",
+        "title": "phase 1 offline reload retains language, local font and status dialog keyboard behavior",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x640 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x640 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x640 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 390x844 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 390x844 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 390x844 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 768x1024 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 768x1024 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 768x1024 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 1366x768 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 1366x768 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 1366x768 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x320 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x320 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 360x320 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 640x360 english: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 640x360 pseudo: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 640x360 large-text: calculator completes with reachable actions",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 validation, non-default products, keyboard submission and return preserve details",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 nso: calculator works after cold offline reload with English fallback",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 ve: calculator works after cold offline reload with English fallback",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase2.spec.js",
+        "title": "phase 2 ts: calculator works after cold offline reload with English fallback",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x640 english",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x640 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x640 large-text",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 390x844 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 390x844 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 390x844 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 768x1024 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 768x1024 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 768x1024 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 1366x768 english",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 1366x768 pseudo",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 1366x768 large-text",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x320 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x320 pseudo",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 360x320 large-text",
+        "status": "passed",
+        "source": "filesystem-write recheck"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 640x360 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 640x360 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 640x360 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 cold offline records, settings, encrypted backup and lock",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 opted-in sync, reviewed conflict and explicit phone resolution",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 diagnosis clears stale results and supplementary reference stays offline",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase3.spec.js",
+        "title": "phase 3 delete confirmation restores focus and keeps actions reachable with large text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 360x640 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 360x640 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 360x640 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 1366x768 english",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 1366x768 pseudo",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "phase4.spec.js",
+        "title": "phase 4 gallery 1366x768 large-text",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "sync.spec.js",
+        "title": "offline persistence, encrypted upload, cloud removal and passphrase recovery",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "sync.spec.js",
+        "title": "service worker drains encrypted queue after the page closes",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "sync.spec.js",
+        "title": "farmers review a conflict and explicitly keep merged phone content",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "ui.spec.js",
+        "title": "calculator explains invalid input and clears stale results",
+        "status": "passed",
+        "source": "full run"
+      },
+      {
+        "file": "ui.spec.js",
+        "title": "phone layout fits and delete dialog returns focus on Escape",
+        "status": "passed",
+        "source": "full run"
+      }
+    ],
+    "passed": 100,
+    "fullRun": {
+      "startTime": "2026-10-09T22:29:35.088Z",
+      "duration": 576999.457,
+      "expected": 88,
+      "skipped": 0,
+      "unexpected": 12,
+      "flaky": 0
+    },
+    "recheck": {
+      "startTime": "2026-10-09T22:39:35.138Z",
+      "duration": 56629.32000000001,
+      "expected": 12,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "note": "Full run passed 88 cases. Twelve cases interrupted only by Windows screenshot filesystem writes passed on targeted recheck after the bounded write retry helper."
+  },
+  "node": {
+    "passed": 17,
+    "failed": 0
+  },
+  "build": "passed",
+  "lint": "passed",
+  "contrast": {
+    "tokens": 8,
+    "pairs": 28,
+    "intendedUsages": "passed"
+  },
+  "lighthouse": {
+    "snapshots": 62,
+    "minimumAccessibilityScore": 100,
+    "failedAudits": 0
+  },
+  "screenshots": 546,
+  "pending": [
+    "Real Android install, keyboard and font testing",
+    "Reviewed local-language copy",
+    "Local agronomic validation and crop-specific diagnostic libraries for tomato, beans and cabbage"
+  ]
+}

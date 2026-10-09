@@ -102,3 +102,10 @@ fieldset .sample-note { margin-top: var(--space-4); }
 .answer-target > svg { flex-shrink: 0; }
 
 .delete-dialog button { min-width: 0; width: 100%; }
+
+.guidance-list { list-style: decimal; padding-left: var(--space-4); display: grid; gap: var(--space-3); }
+
+.status-dialog { display: flex; flex-direction: column; overflow: hidden; padding: var(--space-3); }
+.status-dialog-body { flex: 1; min-height: 0; overflow: auto; }
+.status-dialog-actions { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px; margin-top: var(--space-3); flex-shrink: 0; }
+.status-dialog-actions button { min-width: 0; }

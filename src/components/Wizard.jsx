@@ -16,7 +16,7 @@ export default function Wizard({ title, step, total, onBack, onNext, nextLabel, 
       <div className="step-body">{children}</div>
     </div>
     <footer className="wizard-actions">
-      <Button type="button" variant="outline" onClick={onBack || navigation.exit}><ArrowLeft aria-hidden="true" />{t('ui_back')}</Button>
+      <Button type="button" variant="outline" disabled={busy} onClick={onBack || navigation.exit}><ArrowLeft aria-hidden="true" />{t('ui_back')}</Button>
       {onNext && <Button type="button" disabled={busy} onClick={onNext}>{busy ? t('Please wait…') : nextLabel || t('ui_next')}</Button>}
       {footer}
     </footer>

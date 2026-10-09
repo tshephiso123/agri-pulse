@@ -1,0 +1,4010 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Binel\\Downloads\\agri-pulse\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.ui.config.js",
+      "--workers=1",
+      "--reporter=list,json"
+    ],
+    "configFile": "C:\\Users\\Binel\\Downloads\\agri-pulse\\playwright.ui.config.js",
+    "rootDir": "C:/Users/Binel/Downloads/agri-pulse/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Binel/Downloads/agri-pulse/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Binel/Downloads/agri-pulse/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.js",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4190",
+          "browserName": "chromium",
+          "launchOptions": {
+            "args": [
+              "--disable-gpu",
+              "--renderer-process-limit=2"
+            ]
+          },
+          "channel": "msedge"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node server/index.mjs",
+      "url": "http://127.0.0.1:4190/api/v1/health",
+      "env": {
+        "PORT": "4190",
+        "PUBLIC_ORIGIN": "http://127.0.0.1:4190",
+        "DATABASE_PATH": ":memory:"
+      },
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "crop.spec.js",
+      "file": "crop.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "crop and farm setup 360x640 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5622,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:29:36.814Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-17ce2afa10080b0b1265",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 360x640 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3990,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:29:43.744Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-d86b5e628b9375e325f6",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 360x640 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4422,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:29:47.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-687bb573f45098272a78",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 390x844 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:29:52.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-dcda9e632f4d6591ad36",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 390x844 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:29:56.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-353bcc4ebba2d2a6ca53",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 390x844 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4668,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:01.007Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-93c92ce134e962fa4e46",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 768x1024 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4365,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:05.696Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-bd09e098a489651da53d",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 768x1024 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:10.078Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-ecec33fa87bdee2b7569",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 768x1024 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:14.596Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-0796c172fc5a2d8a51f1",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 1366x768 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4469,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:19.051Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-d6e9df47f5473c7d242d",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 1366x768 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4491,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:23.540Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-582c5c604caf307116d5",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 1366x768 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3919,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:28.044Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-55d7d565d14043281cc9",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 360x320 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4661,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:31.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-dd77c893da9c02e6a700",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 360x320 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4967,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:36.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-eb5af6c67b6559a13016",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 360x320 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4416,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:41.640Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-026ce1d391942d412a5f",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 640x360 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4567,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:46.075Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-1d0d474d2fecfca68ccb",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 640x360 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4718,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:50.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-dc08c65fcad671d65fdb",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "crop and farm setup 640x360 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:55.399Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-50db3fe40e494b6d3738",
+          "file": "crop.spec.js",
+          "line": 3,
+          "column": 145
+        },
+        {
+          "title": "AgriSmart manifest remains installable with local assets and an offline shell",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:30:59.909Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-f62055eb3f893874c9f7",
+          "file": "crop.spec.js",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "farm preferences can stay in the current session when phone storage is unavailable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1230,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:02.931Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c0288db9c9c41830325-0bf46f33b4935a083048",
+          "file": "crop.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "faw.spec.js",
+      "file": "faw.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FAW opens through crop choice, handles uncertainty, clears stale advice and resets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1694,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:04.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fd21537e6a891550d164-d4787e2177c40965d9d2",
+          "file": "faw.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "Sepedi FAW library and immediate guidance work after cold offline reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:05.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fd21537e6a891550d164-6d1abf5c40a2aa1af4ac",
+          "file": "faw.spec.js",
+          "line": 10,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "localization.spec.js",
+      "file": "localization.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "nso switches the full interface offline and survives reopening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:07.256Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01125cb6fe6ee1f06ddc-d546d519ed75c4645215",
+          "file": "localization.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "ts switches the full interface offline and survives reopening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:08.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01125cb6fe6ee1f06ddc-c19a0e68a8897ed32f9c",
+          "file": "localization.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "ve switches the full interface offline and survives reopening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1366,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:09.765Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01125cb6fe6ee1f06ddc-f01175e136d57849cc46",
+          "file": "localization.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "a legacy Sepedi preference migrates rather than becoming Northern Sami",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 623,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:11.148Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01125cb6fe6ee1f06ddc-326e540d219348b48e9f",
+          "file": "localization.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase1.spec.js",
+      "file": "phase1.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 1 360x640 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1001,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:11.811Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-0b419b0abbe8b8369b3e",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 360x640 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1234,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:12.825Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-00ec2a02de5ee6158d33",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 360x640 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1049,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:14.076Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-fb6136e71d02106d0d3d",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 390x844 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 846,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:15.137Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-d2805af40633bfb24c3a",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 390x844 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:15.998Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-ad5f152f6427e13393de",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 390x844 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1192,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:16.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-0e4dd2ffc3e6be8e278f",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 768x1024 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:18.105Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-d391e803e393b738b000",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 768x1024 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 908,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:19.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-5a4cbb52dd44b94c8beb",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 768x1024 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1003,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:20.010Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-644fb05c18d4235bcaaf",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 1366x768 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1222,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:21.029Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-1a38bdcad6b666613849",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 1366x768 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:22.265Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-fac2da5882a7c85862c6",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 1366x768 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1072,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:23.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-bc18dca7c7172e5a4095",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 360x320 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1317,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:24.536Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-7a050fc1249f5b56c5d1",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 360x320 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1077,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:25.867Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-8e7f18d575fd4cc381b5",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 360x320 large-text: language and tool homes keep primary actions reachable",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 640,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase1\\360x320-large-text-language.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase1\\360x320-large-text-language.png'\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase1.spec.js:20:46",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase1.spec.js",
+                      "column": 46,
+                      "line": 20
+                    },
+                    "snippet": "  18 |     for (const name of ['English','Sepedi','Tshivenda','itsonga']) await expect(page.getByRole('radio', { name: name === 'itsonga' ? 'itsonga' : name, exact: true })).toHaveCount(name === 'itsonga' ? 0 : 1);\n  19 |     await safePrimary(page);\n> 20 |     if (mode === 'english' || width === 360) await page.screenshot({ path: `docs/ui/phase1/${width}x${height}-${mode}-language.png` });\n     |                                              ^\n  21 |     await page.locator('.wizard-actions .ui-primary').click();\n  22 |     await expect(page.locator('.tool-nav')).toBeVisible();\n  23 |     for (let index=0;index<3;index++) {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase1.spec.js",
+                        "column": 46,
+                        "line": 20
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase1\\360x320-large-text-language.png'\n\n  18 |     for (const name of ['English','Sepedi','Tshivenda','itsonga']) await expect(page.getByRole('radio', { name: name === 'itsonga' ? 'itsonga' : name, exact: true })).toHaveCount(name === 'itsonga' ? 0 : 1);\n  19 |     await safePrimary(page);\n> 20 |     if (mode === 'english' || width === 360) await page.screenshot({ path: `docs/ui/phase1/${width}x${height}-${mode}-language.png` });\n     |                                              ^\n  21 |     await page.locator('.wizard-actions .ui-primary').click();\n  22 |     await expect(page.locator('.tool-nav')).toBeVisible();\n  23 |     for (let index=0;index<3;index++) {\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase1.spec.js:20:46"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:26.963Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase1-phase-1-360x320-lar-90e28-p-primary-actions-reachable\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase1.spec.js",
+                    "column": 46,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-2278c10351207328830c",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 640x360 english: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1381,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:29.001Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-f4c988f72d78a6739658",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 640x360 pseudo: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1102,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:31.073Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-e3ea336f8841bf6d002d",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 640x360 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 978,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:32.195Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-5127cebbe485514b7bc1",
+          "file": "phase1.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "phase 1 offline reload retains language, local font and status dialog keyboard behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1137,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:33.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-40edd51960e9db6e3658",
+          "file": "phase1.spec.js",
+          "line": 37,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase2.spec.js",
+      "file": "phase2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 2 360x640 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1670,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:34.383Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-c6021fe7feb0e46042d7",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x640 pseudo: calculator completes with reachable actions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1375,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x640-pseudo-result-details.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x640-pseudo-result-details.png'\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:33:5",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                      "column": 96,
+                      "line": 10
+                    },
+                    "snippet": "   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                        "column": 96,
+                        "line": 10
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x640-pseudo-result-details.png'\n\n   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:33:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:36.072Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase2-phase-2-360x640-pse-c560c-etes-with-reachable-actions\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                    "column": 96,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-e4ccab55aca57f3eb00b",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x640 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:38.633Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-6dac76c653c94d64e3be",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 390x844 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1518,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:41.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-add4b2e5931c1a9bb003",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 390x844 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:43.068Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-a29607d30a134b915c02",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 390x844 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1206,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:44.462Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-e8b15bffaee92a501819",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 768x1024 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1273,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:45.684Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-0630a77bcefa417dcb5d",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 768x1024 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1726,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:46.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-6eb3a68ca0e9452677fd",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 768x1024 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2115,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:48.720Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-975257cacd05a70b31d6",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 1366x768 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1805,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:50.855Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-7cc1dc7fcce55d4ac67e",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 1366x768 pseudo: calculator completes with reachable actions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1114,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\1366x768-pseudo-error.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\1366x768-pseudo-error.png'\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:23:5",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                      "column": 96,
+                      "line": 10
+                    },
+                    "snippet": "   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                        "column": 96,
+                        "line": 10
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\1366x768-pseudo-error.png'\n\n   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:23:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:52.680Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase2-phase-2-1366x768-ps-9abaf-etes-with-reachable-actions\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                    "column": 96,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-fe40c5f8220b23f6495d",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 1366x768 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2192,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:54.901Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-40ea6fd3253954e63d93",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x320 english: calculator completes with reachable actions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 931,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-english-fertilizer.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-english-fertilizer.png'\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:16:5",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                      "column": 96,
+                      "line": 10
+                    },
+                    "snippet": "   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                        "column": 96,
+                        "line": 10
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-english-fertilizer.png'\n\n   8 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n   9 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n> 10 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await page.screenshot({path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n     |                                                                                                ^\n  11 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  12 |     await expect(page.locator('#crop-maize')).toBeChecked();\n  13 |     await snapshot('crop');\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:16:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:57.727Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase2-phase-2-360x320-eng-50a3e-etes-with-reachable-actions\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                    "column": 96,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-7fbf2f02f669386df125",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x320 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2262,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:31:59.590Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-0a99c02b1243de453074",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x320 large-text: calculator completes with reachable actions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 901,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-large-text-fertilizer.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-large-text-fertilizer.png'\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:16:5",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                      "column": 96,
+                      "line": 10
+                    },
+                    "snippet": "   8 |     await page.setViewportSize({width,height});\n   9 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n> 10 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                ^\n  11 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await screenshot(page,{path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n  12 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  13 |     await expect(page.locator('#crop-maize')).toBeChecked();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                        "column": 96,
+                        "line": 10
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase2\\360x320-large-text-fertilizer.png'\n\n   8 |     await page.setViewportSize({width,height});\n   9 |     await openCalculator(page,mode==='pseudo'?'/?pseudo=1':'/');\n> 10 |     if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                ^\n  11 |     const snapshot=async name=>{ await assertSafeActions(page); if([360,1366].includes(width)) await screenshot(page,{path:`docs/ui/phase2/${width}x${height}-${mode}-${name}.png`}); };\n  12 |     await expect(page.locator('.tool-nav')).toHaveCount(0);\n  13 |     await expect(page.locator('#crop-maize')).toBeChecked();\n    at snapshot (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:10:96)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js:16:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:02.331Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase2-phase-2-360x320-lar-3f09e-etes-with-reachable-actions\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase2.spec.js",
+                    "column": 96,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-ea17024261e3ca42bac8",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 640x360 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2149,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:04.483Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-9782e861570d8184e365",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 640x360 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1553,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:07.216Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-33e1b29af6a735768d27",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 640x360 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1245,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:08.788Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-d0142d3f3447763c93d0",
+          "file": "phase2.spec.js",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "phase 2 validation, non-default products, keyboard submission and return preserve details",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1615,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:10.047Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-a9202cc4092aefc48a2a",
+          "file": "phase2.spec.js",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "phase 2 nso: calculator works after cold offline reload with English fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1410,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:11.681Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-0c3c33ee693e87e3a945",
+          "file": "phase2.spec.js",
+          "line": 73,
+          "column": 3
+        },
+        {
+          "title": "phase 2 ve: calculator works after cold offline reload with English fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:13.110Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-833b18b2a07eca9c64b1",
+          "file": "phase2.spec.js",
+          "line": 73,
+          "column": 3
+        },
+        {
+          "title": "phase 2 ts: calculator works after cold offline reload with English fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1255,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:14.370Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-81327d51886293eb386f",
+          "file": "phase2.spec.js",
+          "line": 73,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "phase3.spec.js",
+      "file": "phase3.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 3 360x640 english",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3725,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-english-logbook-home.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-english-logbook-home.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:16:127",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-english-logbook-home.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:16:127"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:15.677Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-360x640-english\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-d963c157e1ad440f793d",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x640 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5709,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:20.577Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-84c50b18b2260cdc28f6",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x640 large-text",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1444,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-large-text-management-2.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-large-text-management-2.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:13:23",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x640-large-text-management-2.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:13:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:26.769Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-360x640-large-text\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-db860ea5b3f816cb3181",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 390x844 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4477,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:29.222Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-5789dbab2a75c6684007",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 390x844 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4355,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:34.178Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-0b4fabc35de5e22d2e4c",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 390x844 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5064,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:38.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-bd5fa9a6c3402863463a",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 768x1024 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:43.639Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-373e8bf6af93ba171516",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 768x1024 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4734,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:48.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-e558c778eeb1a707766d",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 768x1024 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4993,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:53.498Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-aef24f7e97da2167f1cf",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 english",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3830,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-english-logbook-home.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-english-logbook-home.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:16:127",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-english-logbook-home.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:16:127"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:32:58.507Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-1366x768-english\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-85f45965f343eacee3ee",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 pseudo",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3167,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-pseudo-protection.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-pseudo-protection.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:15:167",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-pseudo-protection.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:15:167"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:03.890Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-1366x768-pseudo\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-062098d65d359f60c26f",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 large-text",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4943,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-large-text-entry-saved.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-large-text-entry-saved.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:17:419",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\1366x768-large-text-entry-saved.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:17:419"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:08.526Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-1366x768-large-text\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-e0fe01410d8c39b8ac84",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x320 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5767,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:15.035Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-eb9fc432a0f7735ba936",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x320 pseudo",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1281,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-pseudo-diagnosis-result.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-pseudo-diagnosis-result.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:12:2",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-pseudo-diagnosis-result.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:12:2"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:21.401Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-360x320-pseudo\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-9bb1daec558df63044f7",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x320 large-text",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3227,
+                  "error": {
+                    "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-large-text-protection.png'",
+                    "stack": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-large-text-protection.png'\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:15:167",
+                    "location": {
+                      "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                      "column": 153,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                        "column": 153,
+                        "line": 8
+                      },
+                      "message": "Error: UNKNOWN: unknown error, open 'C:\\Users\\Binel\\Downloads\\agri-pulse\\docs\\ui\\phase3\\360x320-large-text-protection.png'\n\n   6 |  await page.setViewportSize({width,height}); await page.goto(mode==='pseudo'?'/?pseudo=1':'/');\n   7 |  if(await page.locator('.language-picker').count()) await primary(page).click();\n>  8 |  if(mode==='large-text') await page.evaluate(()=>document.documentElement.style.fontSize='200%');\n     |                                                                                                  ^\n   9 |  const captured=new Set();const snap=async name=>{await assertSafeActions(page);if((width===360||width===1366)&&!captured.has(name)){captured.add(name);await screenshot(page,{path:`docs/ui/phase3/${width}x${height}-${mode}-${name}.png`});}};\n  10 |  await primary(page).click();await primary(page).click();await snap('diagnose-intro');await primary(page).click();\n  11 |  await primary(page).click();await expect(page.getByRole('alert')).toBeVisible();\n    at snap (C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:8:153)\n    at C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js:15:167"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:23.675Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results\\phase3-phase-3-360x320-large-text\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e\\phase3.spec.js",
+                    "column": 153,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-cdfd1730658e2d916c45",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 640x360 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5353,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:28.964Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-48017a11403042a10da5",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 640x360 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4240,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:34.983Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-cf85fe79c015894a3a67",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 640x360 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:39.259Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-74a3d66f1f9afa452058",
+          "file": "phase3.spec.js",
+          "line": 4,
+          "column": 89
+        },
+        {
+          "title": "phase 3 cold offline records, settings, encrypted backup and lock",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2887,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:44.180Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-9a1b952a48f5e0a7b696",
+          "file": "phase3.spec.js",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "phase 3 opted-in sync, reviewed conflict and explicit phone resolution",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16615,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:33:47.084Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-b962f51be82b4c4a0315",
+          "file": "phase3.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "phase 3 diagnosis clears stale results and supplementary reference stays offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2471,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:34:03.722Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-11837e476ed5cb73959a",
+          "file": "phase3.spec.js",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "phase 3 delete confirmation restores focus and keeps actions reachable with large text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1967,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:34:06.219Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-797ebec90aae59ec3d61",
+          "file": "phase3.spec.js",
+          "line": 51,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase4.spec.js",
+      "file": "phase4.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 4 gallery 360x640 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/360x640-english"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 34648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:34:08.261Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/360x640-english"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-0cb78ce55e0d3eb2e8bd",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "phase 4 gallery 360x640 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/360x640-pseudo"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 35031,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:34:42.942Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/360x640-pseudo"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-863e2584674fed7d7e2a",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "phase 4 gallery 360x640 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/360x640-large-text"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 35376,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:35:18.004Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/360x640-large-text"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-7295e61454ee459242e4",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "phase 4 gallery 1366x768 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/1366x768-english"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 50021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:35:53.448Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/1366x768-english"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-1c07ab70d7c1227689b8",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "phase 4 gallery 1366x768 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/1366x768-pseudo"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 50054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:36:43.503Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/1366x768-pseudo"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-698b1b38d5031af224d9",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "phase 4 gallery 1366x768 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [
+                {
+                  "type": "screenshots",
+                  "description": "91 states in docs/ui/phase4/1366x768-large-text"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 49837,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:37:33.580Z",
+                  "annotations": [
+                    {
+                      "type": "screenshots",
+                      "description": "91 states in docs/ui/phase4/1366x768-large-text"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e94de60819f71340d926-59e25972ddbd9b136e2d",
+          "file": "phase4.spec.js",
+          "line": 7,
+          "column": 2
+        }
+      ]
+    },
+    {
+      "title": "sync.spec.js",
+      "file": "sync.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "offline persistence, encrypted upload, cloud removal and passphrase recovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21990,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:38:23.560Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "552cc10a8dc35e9b0af3-dfcca3456e3a468ab91e",
+          "file": "sync.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "service worker drains encrypted queue after the page closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5467,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:38:45.567Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "552cc10a8dc35e9b0af3-9b8b89899e5092aeaddd",
+          "file": "sync.spec.js",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "farmers review a conflict and explicitly keep merged phone content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:38:51.070Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "552cc10a8dc35e9b0af3-1534ea65a16528ef53c6",
+          "file": "sync.spec.js",
+          "line": 69,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ui.spec.js",
+      "file": "ui.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "calculator explains invalid input and clears stale results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:07.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6cacfa4b79c1be8f210f-70a8e15554cabe5db03c",
+          "file": "ui.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "phone layout fits and delete dialog returns focus on Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2102,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:08.611Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6cacfa4b79c1be8f210f-46d2f8d79f58708587a2",
+          "file": "ui.spec.js",
+          "line": 21,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T22:29:35.088Z",
+    "duration": 576999.457,
+    "expected": 88,
+    "skipped": 0,
+    "unexpected": 12,
+    "flaky": 0
+  }
+}

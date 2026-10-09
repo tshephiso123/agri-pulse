@@ -2,6 +2,7 @@ import { AlertCircle, CheckCircle2, CloudUpload, LockKeyhole, RefreshCw, WifiOff
 import { useTranslation } from 'react-i18next';
 const states = {
   online: { icon: Wifi, label: 'Online' },
+  synced: { icon: CheckCircle2, label: 'Synced' },
   offline: { icon: WifiOff, label: 'ui_offline_description', className: 'state-warning' },
   pending: { icon: CloudUpload, label: 'ui_pending' },
   syncing: { icon: RefreshCw, label: 'Syncing…' },
