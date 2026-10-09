@@ -1,0 +1,53 @@
+{
+  "family": "Noto Sans",
+  "variable_axes": [
+    "wght",
+    "wdth"
+  ],
+  "size_bytes": 153960,
+  "range": "U+1E00–U+1EFF: all source glyphs retained",
+  "required_glyphs": {
+    "ḓ": {
+      "unicode": "U+1E13",
+      "glyph": "uni1E13"
+    },
+    "ḽ": {
+      "unicode": "U+1E3D",
+      "glyph": "uni1E3D"
+    },
+    "ṅ": {
+      "unicode": "U+1E45",
+      "glyph": "uni1E45"
+    },
+    "ṋ": {
+      "unicode": "U+1E4B",
+      "glyph": "uni1E4B"
+    },
+    "ṱ": {
+      "unicode": "U+1E71",
+      "glyph": "uni1E71"
+    },
+    "Ḓ": {
+      "unicode": "U+1E12",
+      "glyph": "uni1E12"
+    },
+    "Ḽ": {
+      "unicode": "U+1E3C",
+      "glyph": "uni1E3C"
+    },
+    "Ṅ": {
+      "unicode": "U+1E44",
+      "glyph": "uni1E44"
+    },
+    "Ṋ": {
+      "unicode": "U+1E4A",
+      "glyph": "uni1E4A"
+    },
+    "Ṱ": {
+      "unicode": "U+1E70",
+      "glyph": "uni1E70"
+    }
+  },
+  "source": "https://github.com/google/fonts/tree/main/ofl/notosans",
+  "public_sans_rejected": "Public Sans lacks 8 of the 10 requested Tshivenda characters."
+}
