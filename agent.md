@@ -1,6 +1,6 @@
 # AgriPulse agent context
 
-Read this file and instruction.md before making changes. This is a 48-hour hackathon prototype for four people, with feature freeze at H42. The live story is: install → Airplane Mode → calculator → symptom flow → save a note → reconnect → sync → officer view.
+Read this file and instruction.md before making changes. This is a 48-hour hackathon prototype for 10 people, with feature freeze at H42. The live story is: install → Airplane Mode → calculator → symptom flow → save a note → reconnect → sync → officer view.
 
 ## Current implementation
 
