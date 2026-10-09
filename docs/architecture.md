@@ -1,5 +1,13 @@
 # Architecture and folder ownership
 
+## Active architecture after backend merge
+
+The React/Vite application is in src/: components/ for screens, data/ and locales/ for content, db/ for IndexedDB, security/ for encryption and sync/ for queue management. src/sw.js is bundled by the PWA plugin. public/ contains static assets; Vite emits dist/. server/index.mjs serves dist/ and the authenticated /api/v1 API, persisting encrypted records in runtime/ SQLite. tests/ contains active backend, storage and browser checks. See backend.md for the protocol.
+
+The original application described below now lives entirely under legacy/. Do not copy its index.html, manifest or service worker into the active public/ folder.
+
+## Historical prototype architecture
+
 The application has no build step. The Node server exposes public/ at `/`, and keeps server code, tests, documentation and runtime records outside the served directory.
 
 | Location | Responsibility | Sprint owner |

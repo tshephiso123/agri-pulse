@@ -1,0 +1,20 @@
+﻿{
+  "leaf": [
+    {
+      "id": "fall_armyworm",
+      "symptomKey": "symptom_ragged_holes",
+      "titleKey": "diag_armyworm_title",
+      "descriptionKey": "diag_armyworm_desc",
+      "actionKey": "diag_armyworm_action",
+      "practicalDoseKey": "dose_armyworm_cap"
+    },
+    {
+      "id": "leaf_blight",
+      "symptomKey": "symptom_yellow_spots",
+      "titleKey": "diag_blight_title",
+      "descriptionKey": "diag_blight_desc",
+      "actionKey": "diag_blight_action",
+      "practicalDoseKey": "dose_blight_copper"
+    }
+  ]
+}

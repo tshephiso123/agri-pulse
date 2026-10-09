@@ -1,5 +1,20 @@
 # Sprint execution and handoff
 
+## Current demo after backend merge
+
+The active app is the React/Vite version from backend. Run `npm ci`, `npm run build`, then `npm start`, and open http://localhost:4173. The historical sprint checklist below applies to the preserved legacy/ prototype. Use this flow for the merged demo:
+
+1. Online, load the built PWA and create a Farm Logbook encryption passphrase of at least 12 characters. Keep it available to unlock after reopening.
+2. Register a fictional cloud account with a different account password. Uncheck Local-Only for records intended to sync.
+3. Install the PWA, enable Airplane Mode with Wi-Fi disabled, then reopen. Use the calculator and symptom tree.
+4. Unlock the vault, save a fictional shared note offline and confirm pending status and persistence after reopening.
+5. Reconnect; use manual sync if needed. Confirm acknowledgement. The backend stores farmer-owned encrypted records; it has no officer plaintext table.
+6. Deployment needs HTTPS, persistent DATABASE_PATH, matching PUBLIC_ORIGIN and NODE_ENV=production. See docs/backend.md.
+
+Real-phone acceptance remains pending. Active checks: `npm test`, `npm run lint`, `npm run build`, `npm run test:e2e`.
+
+## Historical prototype sprint plan
+
 ## Sprint 0 readiness
 
 The local stack and prototype are ready. GitHub repository: https://github.com/tshephiso123/agri-pulse. Before starting the 48-hour clock, assign four named owners, select an HTTPS host that runs Node, install the app on the demo phone and agree on the fictional demo field. Deployment credentials and named team members have not been supplied. Do not invent them.

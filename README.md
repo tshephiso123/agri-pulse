@@ -1,34 +1,57 @@
-# AgriPulse
+# AgriPulse Limpopo
 
-Offline-first hackathon field companion: sample input calculator, crop symptom tree, IndexedDB logbook, retryable sync and mock officer view.
+The backend branch is integrated with main. Active application: src/ (React/Vite), server/ (SQLite API), public/ (icons), tests/ and docs/. The previous dependency-free prototype is preserved in legacy/ and is not included in the active build. Agent and sprint context remain in agent.md and instruction.md.
 
-Requires Node 24. Run `npm start` and open http://localhost:4173. Run `npm run check` and `npm test` for automated verification. There are no external dependencies.
+Offline agricultural tools with an encrypted farmer logbook and an owner-only SQLite sync backend. Requires Node 24 or later.
 
-## Project layout
+## Run locally
 
-```text
-AgriPulse/
-├── public/                 # Browser app; served at the web root
-│   ├── index.html
-│   ├── manifest.webmanifest
-│   ├── sw.js               # Service worker at root scope
-│   ├── js/
-│   │   ├── app.js          # Screens and sync orchestration
-│   │   ├── data.js         # Sample crops, rates and symptom tree
-│   │   └── storage.js      # IndexedDB persistence
-│   ├── css/style.css
-│   └── icons/              # SVG and PWA PNG icons
-├── server/index.mjs        # Static server and mock API
-├── tests/prototype.test.mjs
-├── docs/architecture.md    # Folder ownership and change guidance
-├── mock-data/              # Runtime records; ignored by Git
-├── AGENTS.md               # Agent entry point
-├── agent.md                # Current engineering context
-├── instruction.md          # Sprint plan and acceptance checklist
-├── package.json
-└── README.md
+```sh
+npm install
+npm run build
+npm start
 ```
 
-Deploy with `npm start` for the complete prototype. If using static hosting, set the published directory to `public/`; sync still requires the Node API.
+Open **http://localhost:4173**. Localhost is allowed for development; deployments must use HTTPS.
 
-See [instruction.md](instruction.md) for Sprint 1 tasks and phone acceptance, and [agent.md](agent.md) for engineering context. Phone installation requires HTTPS hosting. Rates and symptoms are illustrative, not agronomic advice. The mock API has no authentication; enter fictional data only.
+For frontend development, use two terminals:
+
+```sh
+npm run dev:api
+npm run dev
+```
+
+Open **http://localhost:5173**. Vite proxies `/api` to the backend. Use this exact hostname: origin checks reject other origins. `npm run preview` is not the integrated backend.
+
+## Farmer workflow
+
+1. Open Farm Logbook and create an encryption passphrase of at least 12 characters. Unlock works offline. Keep the passphrase safe; it cannot be reset or recovered by the server.
+2. Save a record. Local-Only is the default. The record is encrypted before IndexedDB receives it.
+3. Optionally register a cloud account with a **different** account password. To share a record, uncheck Local-Only when creating or editing it.
+4. The app drains encrypted requests in FIFO order on launch, connectivity return, manual sync and periodic foreground retries. Background Sync is an optional enhancement; browser scheduling and a valid session are required.
+5. Selecting Local-Only for a shared record cancels unsent writes and queues a cloud delete. “Cloud removal pending” remains until acknowledgement. A request whose outcome is uncertain is retried with its original mutation ID before removal; it may already exist on the server.
+6. A conflict pauses sync. Review the cloud copy beside the phone entry. Edit the phone entry to combine changes if needed, then choose the cloud version or keep the current phone version. Choosing cloud discards pending shared edits; Local-Only records retain their phone content and retry cloud removal.
+7. Download encrypted backups for **all** phone records, including Local-Only records. On an empty phone, restore a backup with its passphrase. Cloud sign-in on an empty phone restores only previously shared records, using the same passphrase. Backups restore records as Local-Only; existing cloud copies are then removed during sync.
+8. Use the account controls for readable cloud export and cloud-account deletion. Readable exports contain plaintext. Account deletion retains phone records as Local-Only. Delete individual phone records separately if desired.
+
+One vault is supported per browser profile. Switching accounts is refused when their vaults differ; back up before clearing browser storage or using a separate profile. Lock removes the decryption key from application memory. It does not revoke permission to sync already approved encrypted records. Sign out to stop authenticated background sync; server sessions expire after 24 hours.
+
+On first vault setup, existing plaintext logbook entries are encrypted atomically and set to Local-Only. The old plaintext queue is retired. Existing data remains plaintext until that setup succeeds. This migration cannot erase copies previously sent to other services or forensic remnants of browser storage.
+
+## Checks
+
+```sh
+npm test
+npm run lint
+npm run test:e2e
+```
+
+Integration tests cover encryption, migration, backup recovery, owner isolation, mutation versions, restart idempotency, acknowledgement loss, consent withdrawal, FIFO edits, conflicts, 401 and 429 handling. Browser tests use installed Edge on Windows; on other platforms run `npx playwright install chromium` first. Browser checks cover offline reload, sharing, withdrawal, recovery on another browser profile and execution of the worker sync handler with the page closed. They do not guarantee that a browser will schedule native Background Sync after closure.
+
+## Deployment and security
+
+See [backend documentation](docs/backend.md) for the API, deployment settings, encryption design and remaining operational work. Runtime SQLite data is ignored by Git. Choose a private persistent `DATABASE_PATH` outside shared or automatically synchronized folders for deployments. No service credentials or encryption passphrases belong in source control.
+
+This implements technical safeguards, not a declaration of POPIA compliance. Lawful purpose, notices, retention, subject requests, operator agreements, Information Officer responsibilities and incident response still require operational implementation. Section 22 notification is based on reasonable grounds to believe personal information was accessed or acquired without authorization, rather than only likely harm. See the [Information Regulator's POPIA guidance](https://inforegulator.org.za/popia/).
+
+An accurate demo statement is: **“AgriPulse saves records on the phone first, encrypts them with AES-256-GCM, and queues only farmer-approved records for sync when connectivity returns, with safeguards designed to support POPIA compliance.”**

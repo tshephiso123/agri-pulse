@@ -1,5 +1,20 @@
 # AgriPulse agent context
 
+## Current state after backend merge — authoritative
+
+The active app is now the React/Vite PWA from backend. Earlier implementation notes below describe the preserved legacy/ prototype, not the active app. Both unrelated Git histories are retained.
+
+- src/components/ owns React screens; src/data/ and src/locales/ own content.
+- src/db/, src/security/ and src/sync/ own encrypted IndexedDB storage, vaults and opt-in sync.
+- src/sw.js is bundled by vite-plugin-pwa; do not put another service worker in public/.
+- server/index.mjs serves built dist/ and authenticated /api/v1 endpoints with SQLite in ignored runtime/.
+- Use Node 24: npm ci, npm run build, npm start. Open http://localhost:4173. Development: npm run dev:api plus npm run dev.
+- Active checks: npm test, npm run lint, npm run build, npm run test:e2e. See docs/backend.md.
+- Create a logbook encryption passphrase. Local-Only is the default; sharing requires an account with a separate password and explicit consent. There is no officer view of encrypted farmer records.
+- The original prototype is in legacy/; its API and storage are separate. Real-phone Airplane Mode acceptance remains pending.
+
+## Historical prototype context
+
 Read this file and instruction.md before making changes. This is a 48-hour hackathon prototype for 10 people, with feature freeze at H42. The live story is: install → Airplane Mode → calculator → symptom flow → save a note → reconnect → sync → officer view.
 
 ## Current implementation
