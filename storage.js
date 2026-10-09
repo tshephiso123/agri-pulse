@@ -1,0 +1,4 @@
+let database;
+export function db(){return database ||= new Promise((resolve,reject)=>{const request=indexedDB.open('agripulse',1);request.onupgradeneeded=()=>request.result.createObjectStore('entries',{keyPath:'id'});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
+export async function entries(){const database=await db();return new Promise((resolve,reject)=>{const tx=database.transaction('entries');const request=tx.objectStore('entries').getAll();request.onsuccess=()=>resolve(request.result.sort((a,b)=>b.createdAt.localeCompare(a.createdAt)));request.onerror=()=>reject(request.error);});}
+export async function save(entry){const database=await db();return new Promise((resolve,reject)=>{const tx=database.transaction('entries','readwrite');tx.objectStore('entries').put(entry);tx.oncomplete=()=>resolve(entry);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);});}
