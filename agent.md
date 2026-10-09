@@ -5,10 +5,12 @@ Read this file and instruction.md before making changes. This is a 48-hour hacka
 ## Current implementation
 
 - Dependency-free HTML/CSS/JavaScript PWA; Node 24 development server and mock API.
-- app.js owns UI and sync orchestration; data.js contains three sample crops and eleven illustrative symptom outcomes.
-- storage.js persists entries in IndexedDB. Each entry has a stable UUID, crop, field, notes, createdAt and synced flag.
-- sw.js precaches the shell and data. It never caches API responses. Bump CACHE when changing cached assets.
-- server.mjs accepts idempotent POST /api/entries and GET /api/entries. Mock records persist in ignored mock-data/entries.json.
+- public/js/app.js owns UI and sync orchestration; public/js/data.js contains three sample crops and eleven illustrative symptom outcomes.
+- public/js/storage.js persists entries in IndexedDB. Each entry has a stable UUID, crop, field, notes, createdAt and synced flag.
+- public/sw.js precaches the shell and data. It stays at the web root for full app scope. It never caches API responses. Bump CACHE when changing cached assets.
+- server/index.mjs serves only explicitly allowed files from public/ and accepts idempotent POST /api/entries and GET /api/entries. Mock records persist in ignored mock-data/entries.json at the repository root.
+- tests/ contains automated checks; docs/architecture.md explains folder ownership. Keep agent.md, instruction.md and AGENTS.md at the root for discoverability.
+- GitHub repository: https://github.com/tshephiso123/agri-pulse; main tracks origin/main.
 - Sync runs on app launch, reconnect, manual request and every 30 seconds while the app is open. Server acknowledgement precedes the local synced flag. Retries reuse IDs.
 - Officer view is an unauthenticated demo page, not a production portal.
 

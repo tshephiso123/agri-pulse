@@ -2,11 +2,11 @@ import http from 'node:http';
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
-const root=fileURLToPath(new URL('.',import.meta.url)),dataFile=path.join(root,'mock-data','entries.json');
+const root=fileURLToPath(new URL('../',import.meta.url)),publicRoot=path.join(root,'public'),dataFile=path.join(root,'mock-data','entries.json');
 let records=[];try{records=JSON.parse(await readFile(dataFile,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 let writes=Promise.resolve();
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.webmanifest':'application/manifest+json'};
-const publicFiles=new Set(['index.html','app.js','data.js','storage.js','style.css','sw.js','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png']);
+const publicFiles=new Set(['index.html','js/app.js','js/data.js','js/storage.js','css/style.css','sw.js','manifest.webmanifest','icons/icon.svg','icons/icon-192.png','icons/icon-512.png']);
 http.createServer(async(req,res)=>{const send=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify(data));};try{
  const url=new URL(req.url,'http://localhost');
  if(url.pathname==='/api/entries'){
@@ -20,5 +20,5 @@ http.createServer(async(req,res)=>{const send=(status,data)=>{res.writeHead(stat
  }
  if(req.method!=='GET'&&req.method!=='HEAD')return send(405,{error:'Method not allowed'});
  const name=url.pathname==='/'?'index.html':decodeURIComponent(url.pathname).slice(1);if(!publicFiles.has(name))return send(404,{error:'Not found'});
- const content=await readFile(path.join(root,name));res.writeHead(200,{'Content-Type':types[path.extname(name)]||'application/octet-stream','Cache-Control':'no-cache'});res.end(req.method==='HEAD'?undefined:content);
+ const content=await readFile(path.join(publicRoot,name));res.writeHead(200,{'Content-Type':types[path.extname(name)]||'application/octet-stream','Cache-Control':'no-cache'});res.end(req.method==='HEAD'?undefined:content);
  }catch(e){send(500,{error:'Server error'});}}).listen(Number(process.env.PORT)||4173,'0.0.0.0',()=>console.log('AgriPulse running at http://localhost:4173'));

@@ -2,7 +2,7 @@
 
 ## Sprint 0 readiness
 
-The local stack and prototype are ready. Before starting the 48-hour clock, assign four named owners, select an HTTPS host that runs Node, install the app on the demo phone and agree on the fictional demo field. Repo remote, deployment credentials and named team members have not been supplied. Do not invent them.
+The local stack and prototype are ready. GitHub repository: https://github.com/tshephiso123/agri-pulse. Before starting the 48-hour clock, assign four named owners, select an HTTPS host that runs Node, install the app on the demo phone and agree on the fictional demo field. Deployment credentials and named team members have not been supplied. Do not invent them.
 
 ## Sprint 1: H3–H10 — offline shell and data
 
@@ -30,7 +30,7 @@ Record device/browser, deployed URL, date, result and bug links below. Do not co
 
 | Check | Evidence | Status |
 | --- | --- | --- |
-| Syntax and automated contracts | npm run check / npm test: syntax valid; 3 tests pass | Passed |
+| Syntax and automated contracts | npm run check / npm test: syntax valid; 4 tests pass, including cached asset paths | Passed |
 | HTTPS deployment | Awaiting host selection | Pending |
 | Phone installation and cold offline launch | Awaiting real device | Pending |
 | Offline storage and reconnect sync | Awaiting real device | Pending |
