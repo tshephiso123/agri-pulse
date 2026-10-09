@@ -5,14 +5,14 @@ export default {
     extend: {
       colors: {
         pulse: {
-          green: '#166534',
-          greenlight: '#22c55e',
-          amber: '#f59e0b',
-          soil: '#44403c'
+          green: 'var(--primary)',
+          greenlight: 'var(--primary)',
+          amber: 'var(--warning)',
+          soil: 'var(--ink)'
         }
       },
       fontFamily: {
-        sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif']
+        sans: ['Noto Sans', 'sans-serif']
       }
     }
   },

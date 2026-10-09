@@ -13,9 +13,9 @@ export default defineConfig({
       filename: 'sw.js',
       includeAssets: ['favicon.ico', 'icon.svg'],
       manifest: {
-        name: 'AgriPulse Limpopo',
-        short_name: 'AgriPulse',
-        description: 'Offline Agricultural Field Utilities for Limpopo Smallholders',
+        name: 'AgriSmart',
+        short_name: 'AgriSmart',
+        description: 'Offline early maize FAW checks for Limpopo',
         theme_color: '#166534',
         background_color: '#ffffff',
         display: 'standalone',
@@ -25,7 +25,7 @@ export default defineConfig({
         ]
       },
       injectManifest: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff2,ttf}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
 
       }
