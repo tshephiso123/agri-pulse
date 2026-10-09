@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+runtime/
+.env
+.env.*
+
+
+playwright-report/
+test-results/
