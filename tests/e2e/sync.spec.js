@@ -50,7 +50,7 @@ test('offline persistence, encrypted upload, cloud removal and passphrase recove
   await expect(shared.getByText(/Local-Only$/)).toBeVisible();
   remote = await (await context.request.get('/api/v1/me/export')).json(); expect(remote.records.filter(row => row.deleted)).toHaveLength(1);
   const other = await browser.newContext(); const otherPage = await other.newPage();
-  await otherPage.goto('http://127.0.0.1:4184/'); await otherPage.getByRole('button', { name: 'Farm Logbook', exact: true }).click();
+  await otherPage.goto(new URL('/', page.url()).href); await otherPage.getByRole('button', { name: 'Farm Logbook', exact: true }).click();
   await otherPage.getByText('Optional cloud account', { exact: true }).click();
   await otherPage.getByLabel('Encryption passphrase', { exact: true }).fill(passphrase);
   await otherPage.getByLabel('Email', { exact: true }).fill(email);
@@ -104,3 +104,4 @@ test('farmers review a conflict and explicitly keep merged phone content', async
   const final = await (await context.request.get('/api/v1/me/export')).json(); expect(final.records[0].version).toBe(3);
   expect((await decrypt(key, snapshot.vault.id, record.id, final.records[0].envelope)).notes).toBe('Merged phone content');
 });
+

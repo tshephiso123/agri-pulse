@@ -1,53 +1,19 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Leaf } from 'lucide-react';
+import Wizard from './Wizard';
+import english from '../locales/en.json';
 import trees from '../data/diagnosticTrees.json';
-
-export default function SymptomTree() {
+const outcomes = Object.values(trees).flat();
+const steps = ['diag_title', 'Possible cause · sample information', 'diag_action_label', 'dose_label'];
+export default function SymptomTree({ onBack }) {
   const { t } = useTranslation();
   const [selected, setSelected] = useState(null);
-
-  const plantParts = Object.keys(trees);
-
-  if (selected) {
-    const d = selected;
-    return (
-      <div className="p-4 space-y-4">
-        <button onClick={() => setSelected(null)}
-          className="text-pulse-green font-semibold underline">
-          &larr; {t('diag_title')}
-        </button>
-        <div className="border-2 border-pulse-amber rounded-lg p-4 space-y-3">
-          <h2 className="text-xl font-bold text-pulse-green">{t(d.titleKey)}</h2>
-          <p>{t(d.descriptionKey)}</p>
-          <div className="bg-amber-50 border-l-4 border-pulse-amber p-3">
-            <p className="font-semibold">{t('diag_action_label') || 'What to do:'}</p>
-            <p>{t(d.actionKey)}</p>
-          </div>
-          <div className="bg-green-50 border-l-4 border-pulse-green p-3">
-            <p className="font-semibold">{t('dose_label') || 'Practical dose:'}</p>
-            <p className="font-bold">{t(d.practicalDoseKey)}</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="p-4 space-y-4">
-      <h2 className="text-lg font-bold">{t('diag_title')}</h2>
-      {plantParts.map((part) => (
-        <div key={part}>
-          <h3 className="font-semibold text-gray-600 mb-2">{t(`diag_part_${part}`)}</h3>
-          <div className="space-y-2">
-            {trees[part].map((d) => (
-              <button key={d.id} onClick={() => setSelected(d)}
-                className="w-full text-left border-2 border-pulse-soil rounded-lg p-4 font-semibold active:bg-green-100">
-                {t(d.symptomKey)}
-              </button>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  const [step, setStep] = useState(0);
+  const [error, setError] = useState(false);
+  return <Wizard title={t(step ? selected.titleKey : steps[0])} step={step + 1} total={steps.length} onBack={() => step ? setStep(step - 1) : onBack()} onNext={() => { if (!selected) { setError(true); return; } if (step === 3) { setStep(0); setSelected(null); } else setStep(step + 1); }} nextLabel={t(step === 3 ? 'faw_reset' : 'ui_next')}>
+    <p className="sample-note">{t('Sample information only. Confirm the problem with an agricultural adviser before treatment.')}</p>
+    {step === 0 ? <fieldset><legend className="sr-only">{t('diag_title')}</legend><div className="answer-list">{outcomes.map(item => <label className="answer-target" key={item.id}><input type="radio" name="symptom" checked={selected?.id === item.id} onChange={() => { setSelected(item); setError(false); }} /><Leaf aria-hidden="true" />{t(item.symptomKey)}</label>)}</div></fieldset> : step === 1 ? <p>{t(selected.descriptionKey)}</p> : <><h3>{t(steps[step])}</h3><p lang="en">{english[step === 2 ? selected.actionKey : selected.practicalDoseKey]}</p><p className="secondary-copy">{t('treatment_review')}</p></>}
+    {error && <p role="alert" className="ui-alert ui-alert-error">{t('ui_choose_answer')}</p>}
+  </Wizard>;
 }

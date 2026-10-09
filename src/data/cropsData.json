@@ -1,23 +1,42 @@
-﻿{
+{
   "crops": {
     "maize": {
       "id": "maize",
-      "names": { "en": "Maize", "se": "Mphagane", "ve": "Mmbaimbai", "ts": "Xifake" },
+      "names": {
+        "en": "Maize"
+      },
       "targetN_kg_ha": 100,
       "targetP_kg_ha": 40,
       "targetK_kg_ha": 30
     },
     "tomato": {
       "id": "tomato",
-      "names": { "en": "Tomato", "se": "Ramatisi", "ve": "Thomho", "ts": "Matiyasi" },
+      "names": {
+        "en": "Tomato"
+      },
       "targetN_kg_ha": 120,
       "targetP_kg_ha": 60,
       "targetK_kg_ha": 80
     }
   },
   "fertilizers": {
-    "urea": { "name": "Urea (46)", "n_ratio": 0.46, "p_ratio": 0.0, "k_ratio": 0.0 },
-    "npk_232": { "name": "2:3:2 (22)", "n_ratio": 0.063, "p_ratio": 0.094, "k_ratio": 0.063 },
-    "lan": { "name": "LAN (28)", "n_ratio": 0.28, "p_ratio": 0.0, "k_ratio": 0.0 }
+    "urea": {
+      "name": "Urea (46)",
+      "n_ratio": 0.46,
+      "p_ratio": 0,
+      "k_ratio": 0
+    },
+    "npk_232": {
+      "name": "2:3:2 (22)",
+      "n_ratio": 0.063,
+      "p_ratio": 0.094,
+      "k_ratio": 0.063
+    },
+    "lan": {
+      "name": "LAN (28)",
+      "n_ratio": 0.28,
+      "p_ratio": 0,
+      "k_ratio": 0
+    }
   }
 }
