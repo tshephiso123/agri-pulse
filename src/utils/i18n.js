@@ -5,10 +5,11 @@ import en from '../locales/en.json';
 import se from '../locales/se.json';
 import ve from '../locales/ve.json';
 import ts from '../locales/ts.json';
+import features from '../locales/features.en.json';
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { translation: en },
+    en: { translation: { ...en, ...features } },
     se: { translation: se },
     ve: { translation: ve },
     ts: { translation: ts }

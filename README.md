@@ -1,57 +1,38 @@
 # AgriPulse Limpopo
 
-The backend branch is integrated with main. Active application: src/ (React/Vite), server/ (SQLite API), public/ (icons), tests/ and docs/. The previous dependency-free prototype is preserved in legacy/ and is not included in the active build. Agent and sprint context remain in agent.md and instruction.md.
+Free offline field tools for a hackathon prototype: fertilizer arithmetic, guided crop symptom triage, soil education and an encrypted farm logbook. The calculator, symptom flow and soil guide require no account. Once installed and cached, they work without signal. Agronomy targets and diagnostic outcomes are illustrative, not validated treatment advice.
 
-Offline agricultural tools with an encrypted farmer logbook and an owner-only SQLite sync backend. Requires Node 24 or later.
+## Run
 
-## Run locally
+Node 24 required:
 
 ```sh
-npm install
+npm ci
 npm run build
 npm start
 ```
 
-Open **http://localhost:4173**. Localhost is allowed for development; deployments must use HTTPS.
+Open http://localhost:4173. The preview used in this chat runs at http://localhost:4174. For development use `npm run dev:api` and `npm run dev`. Deploy behind HTTPS with a persistent DATABASE_PATH and matching PUBLIC_ORIGIN. See docs/backend.md.
 
-For frontend development, use two terminals:
+## Free and offline access
 
-```sh
-npm run dev:api
-npm run dev
-```
+The app has no subscription or paywall. First PWA installation, updates and optional cloud backup can consume data. A successful install does not protect phone-only records from device loss.
 
-Open **http://localhost:5173**. Vite proxies `/api` to the backend. Use this exact hostname: origin checks reject other origins. `npm run preview` is not the integrated backend.
+The build also emits **dist/agripulse-offline.html**, a self-contained field kit of roughly 44 KB. Download it from the Free & offline page and share the actual file through Bluetooth, USB or a file-sharing app. A compatible local-file browser can run its basic calculator, diagnostics and soil guide without a network. It is not a PWA installer and contains no logbook or cloud sync. Test file opening on target phones before distribution.
 
-## Farmer workflow
+The logbook works offline after creating a local encryption passphrase; no cloud account is required. Export encrypted backups to another device. Optional account sync transfers only records explicitly shared. Recovery requires the original passphrase and, for cloud recovery, account credentials.
 
-1. Open Farm Logbook and create an encryption passphrase of at least 12 characters. Unlock works offline. Keep the passphrase safe; it cannot be reset or recovered by the server.
-2. Save a record. Local-Only is the default. The record is encrypted before IndexedDB receives it.
-3. Optionally register a cloud account with a **different** account password. To share a record, uncheck Local-Only when creating or editing it.
-4. The app drains encrypted requests in FIFO order on launch, connectivity return, manual sync and periodic foreground retries. Background Sync is an optional enhancement; browser scheduling and a valid session are required.
-5. Selecting Local-Only for a shared record cancels unsent writes and queues a cloud delete. “Cloud removal pending” remains until acknowledgement. A request whose outcome is uncertain is retried with its original mutation ID before removal; it may already exist on the server.
-6. A conflict pauses sync. Review the cloud copy beside the phone entry. Edit the phone entry to combine changes if needed, then choose the cloud version or keep the current phone version. Choosing cloud discards pending shared edits; Local-Only records retain their phone content and retry cloud removal.
-7. Download encrypted backups for **all** phone records, including Local-Only records. On an empty phone, restore a backup with its passphrase. Cloud sign-in on an empty phone restores only previously shared records, using the same passphrase. Backups restore records as Local-Only; existing cloud copies are then removed during sync.
-8. Use the account controls for readable cloud export and cloud-account deletion. Readable exports contain plaintext. Account deletion retains phone records as Local-Only. Delete individual phone records separately if desired.
+## Structure
 
-One vault is supported per browser profile. Switching accounts is refused when their vaults differ; back up before clearing browser storage or using a separate profile. Lock removes the decryption key from application memory. It does not revoke permission to sync already approved encrypted records. Sign out to stop authenticated background sync; server sessions expire after 24 hours.
+- src/components/: interface; src/data/: content; src/locales/: bundled dictionaries.
+- src/db/, src/security/, src/sync/: persistence, vault and optional sync.
+- public/: icons; src/sw.js: bundled service worker; dist/: generated app and field kit.
+- server/: SQLite API; scripts/: offline kit builder; tests/: unit/integration and browser checks.
+- docs/: architecture, backend and specification alignment.
+- legacy/: preserved original simple prototype; `npm run start:legacy` starts it separately.
 
-On first vault setup, existing plaintext logbook entries are encrypted atomically and set to Local-Only. The old plaintext queue is retired. Existing data remains plaintext until that setup succeeds. This migration cannot erase copies previously sent to other services or forensic remnants of browser storage.
+## Verification and limits
 
-## Checks
+`npm test`, `npm run lint` and `npm run test:e2e`. Browser checks include offline tools without an account, local-file kit operation without HTTP requests, offline records, recovery and conflicts. Real-phone acceptance remains pending.
 
-```sh
-npm test
-npm run lint
-npm run test:e2e
-```
-
-Integration tests cover encryption, migration, backup recovery, owner isolation, mutation versions, restart idempotency, acknowledgement loss, consent withdrawal, FIFO edits, conflicts, 401 and 429 handling. Browser tests use installed Edge on Windows; on other platforms run `npx playwright install chromium` first. Browser checks cover offline reload, sharing, withdrawal, recovery on another browser profile and execution of the worker sync handler with the page closed. They do not guarantee that a browser will schedule native Background Sync after closure.
-
-## Deployment and security
-
-See [backend documentation](docs/backend.md) for the API, deployment settings, encryption design and remaining operational work. Runtime SQLite data is ignored by Git. Choose a private persistent `DATABASE_PATH` outside shared or automatically synchronized folders for deployments. No service credentials or encryption passphrases belong in source control.
-
-This implements technical safeguards, not a declaration of POPIA compliance. Lawful purpose, notices, retention, subject requests, operator agreements, Information Officer responsibilities and incident response still require operational implementation. Section 22 notification is based on reasonable grounds to believe personal information was accessed or acquired without authorization, rather than only likely harm. See the [Information Regulator's POPIA guidance](https://inforegulator.org.za/popia/).
-
-An accurate demo statement is: **“AgriPulse saves records on the phone first, encrypts them with AES-256-GCM, and queues only farmer-approved records for sync when connectivity returns, with safeguards designed to support POPIA compliance.”**
+Four existing dictionaries are bundled; new guidance currently falls back to English. Complete translation and native-speaker review are pending. No officer dashboard or officer key-sharing scheme is implemented. See docs/spec-alignment.md for the remaining gaps.

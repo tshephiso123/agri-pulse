@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { readLogs, saveLog, deleteLog, isUnlocked, readCloudRecord } from '../security/vault.js';
-import { requestSync, resolveCloudConflict, fetchCloudRecord } from '../sync/engine.js';
+import { requestSync, resolveCloudConflict, fetchCloudRecord, cloudEnabled } from '../sync/engine.js';
 import { db } from '../db/schema.js';
 import VaultControls from './VaultControls.jsx';
 export default function FarmLogbook() {
@@ -39,6 +39,8 @@ export default function FarmLogbook() {
   }
   return <div className="min-w-0 space-y-4 p-4">
     <h2 className="text-lg font-bold">{t('log_title')}</h2>
+    <p className="rounded bg-green-50 p-3 text-sm">{t('log_free_help')}</p>
+    <p className="rounded bg-amber-50 p-3 text-sm">{t('local_risk')}</p>
     <VaultControls />
     {unlocked && <>
       <form className="space-y-3" onSubmit={event => {
@@ -53,8 +55,8 @@ export default function FarmLogbook() {
           <option value="planting">Planting</option><option value="fertilizing">Fertilizing</option><option value="pest_control">Pest Control</option><option value="harvest">Harvest</option>
         </select></label>
         <div><label htmlFor="logbook-notes" className="block text-sm">{t('log_notes')}</label><textarea id="logbook-notes" maxLength={20000} value={notes} onChange={e => setNotes(e.target.value)} rows={3} className="w-full rounded border-2 border-pulse-soil px-3 py-2" /></div>
-        <label className="flex items-center gap-2"><input type="checkbox" checked={sharing === 'local'} onChange={e => setSharing(e.target.checked ? 'local' : 'cloud')} />Local-Only: keep this record on my phone</label>
-        <p className="text-xs text-gray-600">{sharing === 'local' ? 'A previously shared cloud copy will be deleted when sync succeeds.' : 'You agree to upload this encrypted record to your account. You can withdraw sharing later.'}</p>
+        {cloudEnabled && <><label className="flex items-center gap-2"><input type="checkbox" checked={sharing === 'local'} onChange={e => setSharing(e.target.checked ? 'local' : 'cloud')} />Local-Only: keep this record on my phone</label>
+        <p className="text-xs text-gray-600">{sharing === 'local' ? 'A previously shared cloud copy will be deleted when sync succeeds.' : 'You agree to upload this encrypted record to your account. You can withdraw sharing later.'}</p></>}
         <div className="flex gap-2"><button disabled={busy} className="flex-1 rounded bg-pulse-green py-3 font-bold text-white disabled:opacity-50">{editing ? t('log_update') : t('log_save')}</button>
           {editing && <button type="button" onClick={clear} className="rounded border px-3">{t('log_cancel')}</button>}
         </div>

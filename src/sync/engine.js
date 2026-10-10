@@ -1,6 +1,8 @@
 import { db, exclusive } from '../db/schema.js';
+export const cloudEnabled = import.meta.env?.VITE_CLOUD_ENABLED !== 'false';
 
 export async function api(path, options = {}) {
+  if (!cloudEnabled) throw new Error('Cloud sync is not connected on this deployment. Use an encrypted backup on another device.');
   const response = await fetch(path, { ...options, credentials: 'same-origin', cache: 'no-store', headers: { 'Content-Type': 'application/json', 'X-AgriPulse-Request': '1', ...options.headers }, signal: AbortSignal.timeout(20000) });
   const data = await response.json();
   if (!response.ok) throw Object.assign(new Error(data.error || 'Request failed.'), { status: response.status, retryAfter: response.headers.get('Retry-After') });
@@ -15,6 +17,7 @@ export function retryDelay(attempt, retryAfter, random = Math.random, now = Date
 
 const status = value => db.settings.put({ id: 'syncStatus', value });
 export async function registerBackgroundSync() {
+  if (!cloudEnabled) return;
   try {
     if (!globalThis.navigator?.serviceWorker) return;
     const registration = await navigator.serviceWorker.getRegistration();
@@ -23,6 +26,7 @@ export async function registerBackgroundSync() {
 }
 
 export async function drainQueue() {
+  if (!cloudEnabled) { await status('Local storage and encrypted backups available. Cloud sync is not connected.'); return; }
   return exclusive(async () => {
     const vault = (await db.settings.get('vault'))?.value;
     const account = (await db.settings.get('account'))?.value;

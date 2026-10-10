@@ -11,7 +11,7 @@ export default defineConfig({
       strategies: 'injectManifest',
       srcDir: 'src',
       filename: 'sw.js',
-      includeAssets: ['favicon.ico', 'icon.svg'],
+      includeAssets: ['favicon.svg', 'icon.svg'],
       manifest: {
         name: 'AgriPulse Limpopo',
         short_name: 'AgriPulse',

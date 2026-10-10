@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+test('core field tools work offline without an account',async({page,context})=>{
+ await page.goto('/');
+ await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
+ await context.setOffline(true);await page.reload();
+ await page.getByLabel('Field size (hectares)').fill('0.1');
+ await page.getByRole('button',{name:'Calculate',exact:true}).click();
+ await expect(page.getByText('Sample calculation',{exact:true})).toBeVisible();
+ await expect(page.getByText(/21.739 kg/)).toBeVisible();
+ await page.getByRole('button',{name:'Soil guide',exact:true}).click();
+ await expect(page.getByText('A simple soil-and-water jar observation',{exact:true})).toBeVisible();
+ await page.locator('article').filter({hasText:'Often feels gritty'}).getByRole('button').click();
+ await page.getByRole('button',{name:'Calculate',exact:true}).click();
+ await expect(page.getByText(/Placement and timing matter/)).toBeVisible();
+ await page.getByRole('button',{name:'Diagnostics',exact:true}).click();
+ await page.getByRole('button',{name:/Ragged holes/}).click();await page.getByRole('button',{name:'Yes',exact:true}).click();
+ await expect(page.getByText('Possible leaf-feeding caterpillar',{exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Back',exact:true}).click();await expect(page.getByText(/On maize, do you also see/)).toBeVisible();
+ await page.getByRole('button',{name:'Start again',exact:true}).click();await expect(page.getByText('What is the clearest symptom?',{exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Free & offline',exact:true}).click();await expect(page.getByText('If the phone is lost or destroyed',{exact:true})).toBeVisible();
+});

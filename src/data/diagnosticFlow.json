@@ -1,0 +1,10 @@
+{
+  "start":{"question":"flow_start","choices":[["flow_holes","holes"],["flow_spots","spots"],["flow_yellow","yellow"]]},
+  "holes":{"question":"flow_caterpillar","choices":[["flow_yes","armyworm"],["flow_no","uncertain"]]},
+  "spots":{"question":"flow_wet","choices":[["flow_yes","blight"],["flow_no","uncertain"]]},
+  "yellow":{"question":"flow_old","choices":[["flow_yes","nutrient"],["flow_no","uncertain"]]},
+  "armyworm":{"title":"flow_armyworm","detail":"flow_armyworm_help"},
+  "blight":{"title":"flow_blight","detail":"flow_blight_help"},
+  "nutrient":{"title":"flow_nutrient","detail":"flow_nutrient_help"},
+  "uncertain":{"title":"flow_uncertain","detail":"flow_uncertain_help"}
+}

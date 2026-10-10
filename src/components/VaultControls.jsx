@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { db, exclusive } from '../db/schema.js';
 import { vaultInfo, openVault, adoptVault, isUnlocked, lockVault, exportLocal, restoreLocal } from '../security/vault.js';
-import { api, requestSync } from '../sync/engine.js';
+import { api, requestSync, cloudEnabled } from '../sync/engine.js';
 import { decrypt, unlockVault } from '../security/crypto.js';
 
 function download(value, filename) {
@@ -67,7 +67,8 @@ export default function VaultControls() {
       const file = event.target.files?.[0]; if (file) void act(async () => { if (file.size > 10000000) throw new Error('Backup is too large.'); await restoreLocal(JSON.parse(await file.text()), passphrase); });
       event.target.value = '';
     }} className="block w-full text-sm" /></label>}
-    <details>
+    {!cloudEnabled && <p className="rounded bg-amber-50 p-3 text-sm">This deployment has local encrypted storage and backup files. Cloud accounts and cloud recovery are not connected. Keep an encrypted backup on another device.</p>}
+    {cloudEnabled && <details>
       <summary className="cursor-pointer font-semibold">{account ? 'Cloud account: ' + account.email : 'Optional cloud account'}</summary>
       <form className="mt-3 space-y-2" onSubmit={event => { event.preventDefault(); void act(() => authenticate(false)); }}>
         <p className="text-sm">Enter your encryption passphrase above to connect or restore your vault. Local-Only records stay on the phone. HTTPS protects your account details; the server stores encrypted field records.</p>
@@ -104,7 +105,7 @@ export default function VaultControls() {
           </>}
         </div>
       </form>
-    </details>
+    </details>}
     {message && <p role="status" className="text-sm text-pulse-soil">{message}</p>}
   </section>;
 }

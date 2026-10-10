@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { db } from '../db/schema.js';
-import { requestSync } from '../sync/engine.js';
+import { requestSync, cloudEnabled } from '../sync/engine.js';
 export default function SyncStatusBadge() {
   const [state, setState] = useState({ online: navigator.onLine, pending: 0, message: 'Checking sync status...' });
   useEffect(() => {
@@ -20,6 +20,6 @@ export default function SyncStatusBadge() {
   return <div className="mx-4 flex flex-wrap items-center justify-center gap-2 text-xs" role="status">
     <span className="rounded-full bg-amber-50 px-3 py-1">{state.online ? 'Online' : 'Offline'} · {state.pending} pending</span>
     <span>{state.message}</span>
-    <button type="button" onClick={() => void requestSync()} className="rounded border border-pulse-green px-2 py-1 font-semibold">Sync now</button>
+    {cloudEnabled && <button type="button" onClick={() => void requestSync()} className="rounded border border-pulse-green px-2 py-1 font-semibold">Sync now</button>}
   </div>;
 }

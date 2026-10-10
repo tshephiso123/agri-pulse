@@ -1,64 +1,35 @@
-# Sprint execution and handoff
+# Sprint execution and acceptance
 
-## Current demo after backend merge
+## Current launch
 
-The active app is the React/Vite version from backend. Run `npm ci`, `npm run build`, then `npm start`, and open http://localhost:4173. The historical sprint checklist below applies to the preserved legacy/ prototype. Use this flow for the merged demo:
+For Vercel import the GitHub repository and use main as Production Branch. Configuration lives in vercel.json; npm run build:vercel generates the offline/static version with local encrypted notes and backups. Cloud sync is not connected in this build. Follow docs/vercel.md for HTTPS and phone acceptance.
 
-1. Online, load the built PWA and create a Farm Logbook encryption passphrase of at least 12 characters. Keep it available to unlock after reopening.
-2. Register a fictional cloud account with a different account password. Uncheck Local-Only for records intended to sync.
-3. Install the PWA, enable Airplane Mode with Wi-Fi disabled, then reopen. Use the calculator and symptom tree.
-4. Unlock the vault, save a fictional shared note offline and confirm pending status and persistence after reopening.
-5. Reconnect; use manual sync if needed. Confirm acknowledgement. The backend stores farmer-owned encrypted records; it has no officer plaintext table.
-6. Deployment needs HTTPS, persistent DATABASE_PATH, matching PUBLIC_ORIGIN and NODE_ENV=production. See docs/backend.md.
+Use Node 24. Run npm ci, npm run build, npm start. Open http://localhost:4173; the chat preview is localhost:4174. Use fictional records. The active app is React; legacy/ preserves the original prototype.
 
-Real-phone acceptance remains pending. Active checks: `npm test`, `npm run lint`, `npm run build`, `npm run test:e2e`.
+## Demonstrate the selling point
 
-## Historical prototype sprint plan
+1. Open the HTTPS PWA with connectivity, install it and wait for offline readiness. Switch on Airplane Mode with Wi-Fi disabled; close and reopen it.
+2. Without an account, run the sample fertilizer calculator. Select crop/product/area. Explain kg, whole purchasing bags and measured 15 kg quantities; these are sample targets, not a complete NPK plan.
+3. Show optional adviser-provided nitrogen credit. Enter kg/ha only, not raw laboratory ppm. Select sandy soil through the soil guide; show the placement/split-application caution.
+4. Follow crop questions, use Back and Restart. Outcomes are possible causes; pesticide arithmetic requires the exact product label rate and never guesses bottle-cap dosing.
+5. Read the jar observation and soil guidance offline. The jar cannot measure nutrient availability.
+6. Create a local encryption passphrase and save a local note with no account. Reopen and unlock. Export an encrypted backup and copy it to another device.
+7. For optional cloud recovery, register with a separate password, explicitly share a note, sync online, then restore on another browser profile using credentials and the original passphrase.
+8. Download the offline field kit while connected, send the HTML file to another phone, and open it in a compatible browser with connectivity off. This shows basic information/arithmetic access without installing the PWA; it does not include a logbook.
 
-## Sprint 0 readiness
+## Acceptance
 
-The local stack and prototype are ready. GitHub repository: https://github.com/tshephiso123/agri-pulse. Before starting the 48-hour clock, assign four named owners, select an HTTPS host that runs Node, install the app on the demo phone and agree on the fictional demo field. Deployment credentials and named team members have not been supplied. Do not invent them.
+For the refreshed interface, check 320px and 390px widths, full-name language dropdown persistence after reload, keyboard focus, and navigation across all five tools. No external fonts or image requests are required.
 
-## Sprint 1: H3–H10 — offline shell and data
+Automated checks: npm test (16 tests), npm run lint, npm run build. Browser checks cover account-free offline field tools, local-file kit operation without HTTP requests, offline persistence and recovery, worker queue execution and conflicts. See test output for latest execution status.
 
-| Owner | Work | Acceptance |
-| --- | --- | --- |
-| Frontend / PWA | Validate manifest, icons, installation, cache and phone layout | Installed phone app opens after closing it and enabling Airplane Mode |
-| Offline data / backend | Verify IndexedDB, API persistence and stable IDs | Saved note survives reload; retry produces one server record |
-| Content / design / QA | Review three crop samples and symptom tree; document sample limits | No missing tree nodes; sample labels visible; choices readable on phone |
-| Lead / pitch | Assign owners, deploy HTTPS, start problem slides and demo script | Shared URL works; Sprint 1 acceptance evidence recorded |
+Required device checks still pending: low-end Android installation and cold launch, small-screen readability, all language choices, local HTML opening via file manager, phone-to-phone transfer, destruction/replacement recovery, measured-cap usability. Native speakers must review existing translations and translate new guidance, which currently falls back to English.
 
-Start with `npm run check`, `npm test`, then `npm start`. Open http://localhost:4173 on the development machine. Deploy the same project with the start command `npm start`, and a persistent writable directory if mock records must survive host restarts. Hosting platforms may provide PORT. No package installation is needed.
+## Owners and remaining work
 
-### Offline acceptance checklist
+- Frontend/PWA: installation and device acceptance; readable language selection.
+- Backend: durable cloud deployment, recovery and backup workflows; no officer access without an explicit consent and key-sharing design.
+- Content/QA: validated crop targets, diagnoses and translations; never use arbitrary treatment rates.
+- Lead: verify actual distribution channels with farmers/cooperatives. Present free offline use without claiming zero download/update data costs or existing partnerships.
 
-1. On a real phone, open the HTTPS URL while online. Wait for the offline-ready message. Install from the browser menu or iPhone Share → Add to Home Screen.
-2. Close the app, enable Airplane Mode with Wi-Fi also disabled, and reopen the installed app. Confirm the offline indicator and all tool screens.
-3. Calculate maize for 2 ha: sample output must be 100 kg. Confirm zero/negative field sizes are rejected.
-4. Follow the symptom tree, go Back, change an answer and Restart. Add an outcome to the logbook.
-5. Save a fictional note for North field. Reload and reopen; confirm the note remains Pending sync.
-6. Reconnect with the app open. Confirm Synced, then open Officer view and find the same note. Press Sync now twice; there must still be one server record.
-7. Stop the server while browser connectivity remains online. Save a second note; it must remain pending. Restart the server and manually retry; confirm recovery.
-8. Repeat steps 1–6 twice from a clean install before the final pitch. Clearing browser site storage deletes local notes: use fictional test data only.
-
-Record device/browser, deployed URL, date, result and bug links below. Do not count browser network emulation as the final phone test.
-
-| Check | Evidence | Status |
-| --- | --- | --- |
-| Syntax and automated contracts | npm run check / npm test: syntax valid; 4 tests pass, including cached asset paths | Passed |
-| HTTPS deployment | Awaiting host selection | Pending |
-| Phone installation and cold offline launch | Awaiting real device | Pending |
-| Offline storage and reconnect sync | Awaiting real device | Pending |
-
-## Later gates
-
-- H10–20: calculator and symptom flow accepted offline; lead cuts incomplete extras at H20.
-- H20–30: logbook, pending status and retry tested; arrange sleep shifts.
-- H30–42: reconnect sync, officer view, small-screen polish and backup video. Freeze at H42.
-- H42–48: only demo-blocking fixes, two timed rehearsals, submission before deadline.
-
-Cut order: officer UI → automatic sync (keep manual sync) → two crops/six outcomes. Preserve the Airplane Mode demo.
-
-## 90-second demo
-
-Show installed AgriPulse and sample-data label. Enable Airplane Mode. Calculate 2 ha of maize, explore a symptom, save a field note, and reload to demonstrate persistence. Reconnect, sync, then show the officer record. Explain that agronomic validation, authentication and production cloud durability are future work.
+Maintain H42 feature freeze and H42–48 rehearsal/testing. Preserve the Airplane Mode demonstration. Keep officer dashboard work in Phase 2 until authorization, privacy and encryption-key access are designed.
