@@ -1,0 +1,88 @@
+1. A swi nge swi koti ku kambela tirhekhodo leti hlayisiweke. Layicha tluka nakambe leswaku u ringeta nakambe.
+2. Sync a yi swi kotanga ku heta. Tirhekhodo ta wena leti hlayisiweke ti tshama eka riqingho leri. Ringeta nakambe loko u hlanganisiwile.
+3. Eka Internet
+4. Offline — switirhisiwa swa ha tirha
+5. Ku hlanganisa...
+6. Sync sweswi
+7. A hi swi kotanga ku nghena eka vuhlayiselo bya buku ya swiviko. Languta swiletelo swa vuhlayiselo bya browser ya wena kutani u layicha tluka leri nakambe.
+8. Tirhisa mimpimo yo hambana ya phaswedi ya akhawunti ya wena na xivulavulelo xa ku fihla.
+9. Endla vault ya le ndhawini ya ka n'wina u nga si tsarisa.
+10. Signed in. I tirhekhodo leti u hlawulaka ku ti avelana ntsena leti nga ta upload.
+11. Buku ya swiviko yi pfuriwile
+12. Pfula buku ya wena ya swiviko
+13. Sirhelela buku ya wena ya swiviko
+14. Passphrase ya wena ya encryption yi tlhela eka foni leyi. Yi hlayise yi hlayisekile: xivulavulelo xa le handle lexi rivariweke a xi nge vuyiseriwi. Tirhisa phaswedi leyi hambaneke ya akhawunti ya wena.
+15. Swivulwa swa pasi a swi fambelani.
+16. Tirhisa swihlawulekisi swa kwalomu ka 12, swo fana na marito yo hlayanyana lawa u nga ma tsundzukaka.
+17. Xivulavulelo xa ku fihla
+18. Tiyisisa xivulwa lexintshwa xa ku hundza
+19. Hi kombela u yima...
+20. Pfula swilo leswi nga riki eka inthanete
+21. Endla vault ya laha kaya
+22. Khiya buku ya swiviko
+23. Endla backup ya tirhekhodo leti pfaleriweke
+24. Vuyisela backup leyi pfaleriweke (nghenisa xivulavulelo xa yona xa le henhla laha henhla). Tirhekhodo ti vuyiseriwa tanihi Local-Only; ku nghena endzhaku swi susa tikopi tihi na tihi ta le mapapa leti nga kona.
+25. Backup yikulu ngopfu.
+26. Akhawunti ya le mapapa ya ku hlawula
+27. Nghenisa xivulavulelo xa wena xa encryption laha henhla ku hlanganisa kumbe ku vuyisela vault ya wena. Tirhekhodo ta Local-Only ti tshama eka riqingho. HTTPS yi sirhelela vuxokoxoko bya akhawunti ya wena; sevha yi hlayisa tirhekhodo ta nsimu leti pfaleriweke.
+28. Imeyili
+29. Phasiwedi ya akhawunti (kwalomu ka swihlawulekisi swa 12) .
+30. Nghena
+31. Tsarisa vault leyi
+32. Ku sayiniwile ehandle. Tirhekhodo ta ndhawu ta hlayisiwa.
+33. Sayina ehandle
+34. Account a yi fambelani na vault leyi.
+35. Ku rhumela ehandle loku hlayekaka ku dawunilodiwile. Fayili leyi yi na vuxokoxoko bya munhu hi xiyexe leswi nga pfaleriwangiki.
+36. Rhumela ehandle datha ya le mapapa leyi hlayekaka
+37. Susa akhawunti ya wena ya le mapapa na tirhekhodo ta yona? Tirhekhodo ta ndhawu ti tshama eka riqingho leri. leswi a swi nge tlheriseriwi endzhaku.
+38. Akhawunti ya le mapapa yi susiwile. Tirhekhodo ta ndhawu ta hlayisiwa.
+39. Susa akhawunti ya le mapapa
+40. ndzi kombela u yima. Hi le ku endleni ka xikombelo xa wena...
+41. Khansela
+42. Ku susa...
+43. Susa ku nghena
+44. Vault leyi hoxeke.
+45. Tirhisa xivulwa xa le handle xa swihlawulekisi swa kwalomu ka 12. Yi hlayise yi hlayisekile: a hi nge swi koti ku yi vuyisa.
+46. Xivumbeko xa vault leswi nga seketeriwangiki.
+47. Passphrase a yi lulamanga kumbe vault yi onhakile.
+48. Foni leyi yi na vault yin'wana. Yi rhumele ehandle u nga si tirhisa akhawunti yin'wana.
+49. Pfula no rhumela ehandle swingheniso swa wena swa laha kaya leswi nga kona u nga si vuyisela vault yin'wana.
+50. Pfula buku ya wena ya swiviko ku sungula.
+51. Ku nghena a ka ha kumeki.
+52. Rhekhodo leyi yi cincile loko u ri karhi u hlela. Yi pfule nakambe kutani u kambisisa leswi nga endzeni ka sweswinyana u nga si swi hlayisa.
+53. Vuhlayiselo leswi nga tirhiki.
+54. Ku vuyisela swi lava riqingho leri nga riki na vault leyi nga kona.
+55. Browser leyi yi lava nseketelo wa Web Locks ku hlayisa na ku fambisana loku hlayisekeke. Tirhisa browser ya sweswi eka HTTPS kumbe localhost.
+56. Xikombelo xi tsandzekile.
+57. Nghena ku pfumelela ku fambisana ka mapapa.
+58. Ku yimela ku ringeta nakambe.
+59. Akhawunti leyi nghenisiweke a yi fambelani na vault leyi.
+60. Nkarhi wu herile. Nghena nakambe ku fambisana.
+61. A swi swi kotanga ku tiyisisa akhawunti ya le mapapa.
+62. Fole i ya vault yin'wana.
+63. Ku kanetana ka ku fambisana. Pfuxeta rhekhodo u nga si ya emhlweni.
+64. Ku hlanganisiwa ku tsandzekile. Ku cinca loku pfaleriweke ku fola layini.
+65. Ku amukelwa ka ku fambisana loku nga tirhiki.
+66. Ku susiwa ka mapapa ku fole layini.
+67. Ku susiwa ka mapapa swi lava ku ringeta kun'wana ka ku fambisana.
+68. Ku fambisana ka mapapa ku hetisekile.
+69. A swi swi kotanga ku kopa ku cinca ka le mapapa.
+70. Rhekhodo leyi yimeleke yi fanele ku lulamisiwa ku nga si dawuniloda.
+71. Account a yi fambelani na vault.
+72. Rhekhodo ya mapapa yi cincile nakambe. Pfuxeta kopi ya sweswinyana u nga si hlawula.
+73. Tirhisa xitirhisiwa/json.
+74. Xikombelo lexikulu ngopfu.
+75. Nchumu wa JSON wa laveka.
+76. Nchumu wa JSON lowu nga tirhiki.
+77. PUBLIC_ORIGIN yi fanele ku tirhisa HTTPS eka vuhumelerisi.
+78. Xikimi xa database i xintshwa ku tlhela leswi sevha leyi yi swi seketelaka.
+79. Ndlela a yi pfumeleriwi.
+80. A swi kumeki.
+81. Aka frontend hi npm run build.
+82. Masungulo ya ariwile.
+83. Xikombelo xo tsemakanya ndhawu xi ariwile.
+84. Nhlokomhaka ya nsirhelelo wa xikombelo leyi kayivelaka.
+85. Ringeta nakambe ku nga ri khale.
+86. Tirhisa imeyili leyi tirhaka na phaswedi ya swihlawulekisi swa 12 ku ya eka 128.
+87. Vault leyi pfaleriweke leyi nga tirhiki.
+88. Imeyili kumbe vault se yi tsarisiwile.

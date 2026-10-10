@@ -1,0 +1,317 @@
+{
+  "tokens": {
+    "surface": "#FBFCFB",
+    "ink": "#16211B",
+    "muted": "#55655C",
+    "line": "#E2E8E4",
+    "line-strong": "#6F7F75",
+    "primary": "#1E5C3A",
+    "warning": "#8A5200",
+    "error": "#B3261E"
+  },
+  "pairs": [
+    {
+      "pair": [
+        "surface",
+        "ink"
+      ],
+      "ratio": 16.11,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "surface",
+        "muted"
+      ],
+      "ratio": 6.002,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "surface",
+        "line"
+      ],
+      "ratio": 1.208,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "surface",
+        "line-strong"
+      ],
+      "ratio": 4.11,
+      "aa_body": false,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "surface",
+        "primary"
+      ],
+      "ratio": 7.714,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "surface",
+        "warning"
+      ],
+      "ratio": 6.211,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "surface",
+        "error"
+      ],
+      "ratio": 6.356,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "ink",
+        "muted"
+      ],
+      "ratio": 2.684,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "ink",
+        "line"
+      ],
+      "ratio": 13.331,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "ink",
+        "line-strong"
+      ],
+      "ratio": 3.92,
+      "aa_body": false,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "ink",
+        "primary"
+      ],
+      "ratio": 2.089,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "ink",
+        "warning"
+      ],
+      "ratio": 2.594,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "ink",
+        "error"
+      ],
+      "ratio": 2.535,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "muted",
+        "line"
+      ],
+      "ratio": 4.966,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "muted",
+        "line-strong"
+      ],
+      "ratio": 1.46,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "muted",
+        "primary"
+      ],
+      "ratio": 1.285,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "muted",
+        "warning"
+      ],
+      "ratio": 1.035,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "muted",
+        "error"
+      ],
+      "ratio": 1.059,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "line",
+        "line-strong"
+      ],
+      "ratio": 3.401,
+      "aa_body": false,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "line",
+        "primary"
+      ],
+      "ratio": 6.383,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "line",
+        "warning"
+      ],
+      "ratio": 5.14,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "line",
+        "error"
+      ],
+      "ratio": 5.259,
+      "aa_body": true,
+      "nontext": true
+    },
+    {
+      "pair": [
+        "line-strong",
+        "primary"
+      ],
+      "ratio": 1.877,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "line-strong",
+        "warning"
+      ],
+      "ratio": 1.511,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "line-strong",
+        "error"
+      ],
+      "ratio": 1.547,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "primary",
+        "warning"
+      ],
+      "ratio": 1.242,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "primary",
+        "error"
+      ],
+      "ratio": 1.214,
+      "aa_body": false,
+      "nontext": false
+    },
+    {
+      "pair": [
+        "warning",
+        "error"
+      ],
+      "ratio": 1.023,
+      "aa_body": false,
+      "nontext": false
+    }
+  ],
+  "usages": [
+    {
+      "foreground": "ink",
+      "background": "surface",
+      "minimum": 7,
+      "ratio": 16.11,
+      "use": "Body text"
+    },
+    {
+      "foreground": "muted",
+      "background": "surface",
+      "minimum": 4.5,
+      "ratio": 6.002,
+      "use": "Secondary text"
+    },
+    {
+      "foreground": "surface",
+      "background": "primary",
+      "minimum": 4.5,
+      "ratio": 7.714,
+      "use": "Primary button text"
+    },
+    {
+      "foreground": "line-strong",
+      "background": "surface",
+      "minimum": 3,
+      "ratio": 4.11,
+      "use": "Input/radio/secondary action boundaries"
+    },
+    {
+      "foreground": "warning",
+      "background": "surface",
+      "minimum": 4.5,
+      "ratio": 6.211,
+      "use": "Offline/warning text"
+    },
+    {
+      "foreground": "error",
+      "background": "surface",
+      "minimum": 4.5,
+      "ratio": 6.356,
+      "use": "Error text"
+    },
+    {
+      "foreground": "primary",
+      "background": "surface",
+      "minimum": 3,
+      "ratio": 7.714,
+      "use": "Active state and focus"
+    }
+  ]
+}

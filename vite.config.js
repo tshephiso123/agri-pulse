@@ -15,7 +15,7 @@ export default defineConfig({
       manifest: {
         name: 'AgriPulse Limpopo',
         short_name: 'AgriPulse',
-        description: 'Offline Agricultural Field Utilities for Limpopo Smallholders',
+        description: 'Free offline field tools for Limpopo smallholders',
         theme_color: '#166534',
         background_color: '#ffffff',
         display: 'standalone',
@@ -25,7 +25,7 @@ export default defineConfig({
         ]
       },
       injectManifest: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff2,ttf}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
 
       }

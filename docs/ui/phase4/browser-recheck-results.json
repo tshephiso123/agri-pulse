@@ -1,0 +1,551 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Binel\\Downloads\\agri-pulse\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.ui.config.js",
+      "--workers=1",
+      "--last-failed",
+      "--reporter=list,json"
+    ],
+    "configFile": "C:\\Users\\Binel\\Downloads\\agri-pulse\\playwright.ui.config.js",
+    "rootDir": "C:/Users/Binel/Downloads/agri-pulse/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Binel/Downloads/agri-pulse/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Binel/Downloads/agri-pulse/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\Binel\\Downloads\\agri-pulse\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.js",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4190",
+          "browserName": "chromium",
+          "launchOptions": {
+            "args": [
+              "--disable-gpu",
+              "--renderer-process-limit=2"
+            ]
+          },
+          "channel": "msedge"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node server/index.mjs",
+      "url": "http://127.0.0.1:4190/api/v1/health",
+      "env": {
+        "PORT": "4190",
+        "PUBLIC_ORIGIN": "http://127.0.0.1:4190",
+        "DATABASE_PATH": ":memory:"
+      },
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "phase1.spec.js",
+      "file": "phase1.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 1 360x320 large-text: language and tool homes keep primary actions reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2622,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:37.286Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61533eb7f4fb9fda5467-2278c10351207328830c",
+          "file": "phase1.spec.js",
+          "line": 13,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "phase2.spec.js",
+      "file": "phase2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 2 360x640 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2619,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:41.283Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-e4ccab55aca57f3eb00b",
+          "file": "phase2.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "phase 2 1366x768 pseudo: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:43.923Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-fe40c5f8220b23f6495d",
+          "file": "phase2.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x320 english: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2049,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:45.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-7fbf2f02f669386df125",
+          "file": "phase2.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "phase 2 360x320 large-text: calculator completes with reachable actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1870,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:47.991Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1083ebbd49ebb2973910-ea17024261e3ca42bac8",
+          "file": "phase2.spec.js",
+          "line": 7,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "phase3.spec.js",
+      "file": "phase3.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "phase 3 360x640 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5284,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:49.911Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-d963c157e1ad440f793d",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x640 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:39:55.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-db860ea5b3f816cb3181",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 english",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6118,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:40:00.364Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-85f45965f343eacee3ee",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7193,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:40:06.499Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-062098d65d359f60c26f",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 1366x768 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7077,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:40:13.713Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-e0fe01410d8c39b8ac84",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x320 pseudo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5137,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:40:20.806Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-9bb1daec558df63044f7",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        },
+        {
+          "title": "phase 3 360x320 large-text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T22:40:25.961Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "427316fb5d624da3bedc-cdfd1730658e2d916c45",
+          "file": "phase3.spec.js",
+          "line": 5,
+          "column": 89
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T22:39:35.138Z",
+    "duration": 56629.32000000001,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

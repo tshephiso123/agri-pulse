@@ -1,5 +1,6 @@
 {
  "free_title":"Free tools for the field",
+ "app_title":"AgriPulse Limpopo",
  "brand_caption":"Your field companion", "language_label":"Language", "field_eyebrow":"GROW WITH CONFIDENCE", "field_tagline":"Practical tools, wherever you farm.", "free_short":"Free to use · works offline after setup", "connection_online":"Online", "connection_offline":"Offline",
  "tools_online":"Online · field tools can also run offline after setup", "tools_offline":"Offline · use the field tools without signal",
  "kit_title":"Share a small offline field kit", "kit_help":"Download this self-contained HTML file once and share the file by Bluetooth, USB or a file-sharing app. Open it in a browser that supports local HTML files. It contains basic calculator, symptom and soil tools, with no account or network calls. It does not include the installable PWA, encrypted logbook or cloud backup. File handling depends on the receiving phone and browser; test before distribution.", "kit_download":"Download offline field kit",

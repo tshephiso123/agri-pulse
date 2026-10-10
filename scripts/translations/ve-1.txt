@@ -1,0 +1,88 @@
+1. A i koni u sedza rekhodo dzo vhulungwaho. Ladzani siaṱari hafhu u itela u lingedza hafhu.
+2. Sync a yo ngo kona u fhedza. Rekhodo dzanu dzo vhulungwaho dzi dzula kha founu iyi. Lingedzani hafhu musi no ṱangana.
+3. Kha inthanethe
+4. Offline — zwishumiswa zwi kha ḓi shuma .
+5. U ṱanganya...
+6. Sync zwino
+7. Ro vha ri sa koni u swikelela vhudzulo ha bugu dza u ḓivhadza. Sedzani zwishumiswa zwa vhudzulo ha browser yaṋu nahone ni ḓadze hafhu siaṱari iḽi.
+8. Shumisani ndeme dzo fhambanaho dza phasiwede ya akhaunthu yaṋu na phasiwede ya u ṅwalulula.
+9. Kha vha ite vault yavho yapo vha sa athu u ṅwalisa.
+10. Sign in. Ndi rekhodo fhedzi dzine na khetha u dzi kovhela dzine dza ḓo dzheniswa.
+11. Bugu ya u ṅwala yo vulea
+12. Vulani bugu yaṋu ya u ṅwala .
+13. Tsireledzani bugu yaṋu ya u ṅwala .
+14. Passphrase yaṋu ya u ṅwalulula i dzula kha founu iyi. I vhulungeni: passphrase yo hangwiwaho a i nga ḓo vhuyedzedzwa. Shumisani password yo fhambanaho ya akhaunthu yaṋu.
+15. Mafhungo a u fhira ha fani.
+16. Shumisani maḽeḓere a ṱoḓaho u vha 12, u fana na maipfi o vhalaho ane na nga a humbula.
+17. Mubulo wa u ṅwalulula
+18. Kha vha khwaṱhisedze ḽifurase ḽiswa
+19. Ndi khou humbela uri ni lindele...
+20. Vula zwi siho kha inthanethe
+21. Kha vha ite vhupo hapo .
+22. Bugu ya ḽogo ya ḽoko
+23. U ita bekhaphu ya rekhodo dzo ṅwaliwaho .
+24. Vhuyedzedzani backup yo ṅwaliwaho (ṅwalani passphrase yayo afho nṱha). Rekhodo dzi vhuyedzedzwa sa dza Vhupo-Fhedzi; u saina nga murahu zwi bvisa kopi dziṅwe na dziṅwe dzi re hone dza cloud.
+25. Backup ndi khulwane vhukuma.
+26. Akhaunthu ya cloud ya u nanga
+27. Ṅwalani passphrase yaṋu ya u ṅwalulula i re afho nṱha u itela u ṱanganya kana u vhuedzedza tshiṱoko tshaṋu. Rekhodo dza Local-Fhedzi dzi dzula kha founu. HTTPS i tsireledza zwidodombedzwa zwa akhaunthu yaṋu; seva i vhulunga rekhodo dza tsimu dzo ṅwaliwaho.
+28. Imeili
+29. Phasiwede ya akhaunthu (ine ya vha na maḽeḓere a 12)
+30. Dzhenani
+31. Kha vha ṅwalise tshiṱoko itshi .
+32. O bva. Rekhodo dzapo dzi a vhulungwa.
+33. Kha vha bve
+34. Akhaunthu a i fani na vault iyi.
+35. Export i vhaleaho yo ṱalutshedzelwa. Faela iyi i na mafhungo a muthu nga eṱhe a songo ṅwaliwaho.
+36. U rumela nnḓa data ya gole i vhaleaho
+37. U bvisa akhaunthu yaṋu ya cloud na rekhodo dzayo? Rekhodo dzapo dzi dzula kha founu iyi. Hezwi a zwi nga ḓo vhuyedzedzwa murahu.
+38. Akhaunthu ya Cloud yo bviswa. Rekhodo dzapo dzi a vhulungwa.
+39. Kha vha phumule akhaunthu ya cloud
+40. Ndi khou humbela uri ni lindele. Ri khou shuma khumbelo yavho...
+41. Khansela
+42. U phumula...
+43. Phumula zwe zwa dzhena
+44. Vault yo khakheaho.
+45. Shumisani ṱhalutshedzo ya u fhira ya maḽeḓere a ṱoḓaho u vha 12. I vhulungeni: ri nga si kone u i vhuisa.
+46. Fomathi ya vault i sa tikedziwi.
+47. Passphrase yo khakhea kana vault yo tshinyala.
+48. Founu iyi ina inwe vault. I bviseni nnḓa ni sa athu shumisa akhaunthu yo fhambanaho.
+49. Vulani na u rumela nnḓa zwithu zwaṋu zwapo zwi re hone phanḓa ha musi ni tshi vhuedzedza iṅwe vault.
+50. Kha vha thome vha vule bugu yavho ya u ṅwala.
+51. U dzhena a zwi tsha wanala.
+52. Rekhodo iyi yo shanduka musi ni tshi khou editha. I vuleni hafhu nahone ni ṱolisise zwi re ngomu zwa zwenezwino ni sa athu u vhulunga.
+53. U bekha zwi sa shumi.
+54. Restore i ṱoḓa founu i si na vault ine ya vha hone.
+55. Browser iyi i ṱoḓa thikhedzo ya Web Locks u itela u vhulunga na u ṱanganya zwo tsireledzeaho. Shumisani burauza ya zwino nga HTTPS kana localhost.
+56. Khumbelo yo kundelwa.
+57. Dzhenani u itela u konisa u ṱanganya ha gole.
+58. U lindela u lingedza hafhu.
+59. Akhaunthu yo dzhenaho a i fani na vault iyi.
+60. Sesheni yo fhela. Dzhenani hafhu u itela u ṱanganya.
+61. A vha koni u khwaṱhisedza akhaunthu ya cloud.
+62. Mutevhe u wela kha inwe vault.
+63. Khuḓano ya u ṱanganya. Vusulusani rekhodo ni sa athu bvela phanḓa.
+64. Vhuṱumani ho kundelwa. Tshanduko dzo ṅwaliwaho dzi vhewa kha mutevhe.
+65. U ṱanganedzwa ha u ṱanganya hu sa shumi.
+66. U bviswa ha gole zwo vhewa kha mutevhe.
+67. U bvisa gole zwi ṱoḓa uri hu lingedzwe hafhu u ṱanganya.
+68. U ṱanganya gole zwo fhelela.
+69. A thi koni u ṱalutshedzela tshanduko dza gole.
+70. Rekhodo yo lindelaho i tea u tandululwa phanḓa ha musi i tshi ṱalutshedzelwa.
+71. Akhaunthu a i fani na vault.
+72. Rekhodo ya gole yo dovha ya shanduka. Vusulusani kopi ya zwenezwino ni sa athu khetha.
+73. Shumisani tshumiso/json.
+74. Khumbelo ndi khulwane vhukuma.
+75. Tshithu tsha JSON tshi ṱoḓeaho.
+76. Tshithu tsha JSON tshi sa shumi.
+77. PUBLIC_ORIGIN i tea u shumisa HTTPS kha u bveledza.
+78. Tshikima tsha database ndi tshiswa u fhira zwine seva iyi ya zwi tikedza.
+79. Nḓila a yo ngo tendelwa.
+80. A zwi wanali.
+81. Fhaṱani frontend nga npm run fhaṱa.
+82. Vhubvo ho hanedzwa.
+83. Khumbelo ya u fhambana ha fhethu yo hanedzwa.
+84. Ṱhoho ya tsireledzo ya khumbelo i siho.
+85. Lingedzani hafhu hu si kale.
+86. Shumisani email i shumaho na password ya maḽeḓere a 12 u swika kha 128.
+87. Vault yo ṅwaliwaho i sa shumi.
+88. Email kana vault yo no nwaliswa.

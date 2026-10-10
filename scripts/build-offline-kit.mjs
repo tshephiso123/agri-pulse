@@ -2,7 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 const read=async name=>(await readFile(new URL('../'+name,import.meta.url),'utf8')).replace(/^\uFEFF/,'');
 const english={...JSON.parse(await read('src/locales/en.json')),...JSON.parse(await read('src/locales/features.en.json'))};
 const translations={en:english};
-for(const lang of ['se','ve','ts'])translations[lang]={...english,...JSON.parse(await read('src/locales/'+lang+'.json'))};
+for(const lang of ['se','ve','ts'])translations[lang]={...english,...JSON.parse(await read('src/locales/'+(lang==='se'?'nso':lang)+'.json'))};
 const crops=JSON.parse(await read('src/data/cropsData.json'));
 const flow=JSON.parse(await read('src/data/diagnosticFlow.json'));
 const maths=(await read('src/utils/agronomyCalculators.js')).replaceAll('export function','function');

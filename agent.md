@@ -2,6 +2,8 @@
 
 ## Current scope
 
+Deployment merge preserves the incoming AgriSmart redesign at dea7561 in Git history and a local ignored archive/ snapshot. Compatible added modules/translations remain; App uses the user-approved AgriPulse screens. Wizard-specific browser tests are reference tests; active testMatch selects field-tools, offline-kit and sync. Review docs/ui/ as alternate-design history, not active UI acceptance.
+
 On October 10, 2026 the user requested improving the React version to follow the comprehensive specification, emphasizing free offline access for rural users. React is again the default. Preserve legacy/ separately; do not copy its worker into public/.
 
 ## Architecture

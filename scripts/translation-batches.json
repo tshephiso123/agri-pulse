@@ -1,0 +1,820 @@
+[
+  [
+    [
+      "nav_calculator",
+      "Fertilizer Calculator"
+    ],
+    [
+      "nav_diagnostics",
+      "Diagnostics"
+    ],
+    [
+      "nav_logbook",
+      "Farm Logbook"
+    ],
+    [
+      "calc_crop",
+      "Select crop"
+    ],
+    [
+      "calc_fertilizer",
+      "Select fertilizer"
+    ],
+    [
+      "calc_area",
+      "Field size (hectares)"
+    ],
+    [
+      "calc_button",
+      "Calculate"
+    ],
+    [
+      "calc_result_kg",
+      "Total product needed"
+    ],
+    [
+      "calc_result_bags",
+      "50 kg bags"
+    ],
+    [
+      "calc_result_buckets",
+      "15 kg buckets"
+    ],
+    [
+      "calc_result_caps",
+      "Bottle caps per plant"
+    ],
+    [
+      "diag_title",
+      "What do you see on the plant?"
+    ],
+    [
+      "diag_part_leaf",
+      "Leaves"
+    ],
+    [
+      "symptom_ragged_holes",
+      "Ragged holes in leaves"
+    ],
+    [
+      "symptom_yellow_spots",
+      "Yellow spots on leaves"
+    ],
+    [
+      "diag_armyworm_title",
+      "Fall Armyworm"
+    ],
+    [
+      "diag_armyworm_desc",
+      "Caterpillar pest that eats maize leaves, leaving ragged holes and sawdust-like droppings."
+    ],
+    [
+      "diag_armyworm_action",
+      "Scout plants early morning. Crush egg masses by hand. Spray in the evening when larvae are active."
+    ],
+    [
+      "dose_armyworm_cap",
+      "Mix 2 bottle caps of insecticide per 15 L knapsack sprayer."
+    ],
+    [
+      "diag_blight_title",
+      "Leaf Blight"
+    ],
+    [
+      "diag_blight_desc",
+      "Fungal disease causing yellow-brown streaks and spots that spread in wet weather."
+    ],
+    [
+      "diag_blight_action",
+      "Remove infected leaves. Avoid working in fields when leaves are wet. Rotate crops next season."
+    ],
+    [
+      "dose_blight_copper",
+      "Mix 3 bottle caps of copper fungicide per 15 L knapsack sprayer."
+    ],
+    [
+      "log_title",
+      "Farm Logbook"
+    ],
+    [
+      "log_activity",
+      "Activity"
+    ],
+    [
+      "log_category",
+      "Category"
+    ],
+    [
+      "log_notes",
+      "Notes"
+    ],
+    [
+      "log_save",
+      "Save entry"
+    ],
+    [
+      "log_edit",
+      "Edit entry"
+    ],
+    [
+      "log_delete",
+      "Delete entry"
+    ],
+    [
+      "log_confirm_delete",
+      "Delete this logbook entry? This cannot be undone."
+    ],
+    [
+      "log_close",
+      "Close"
+    ],
+    [
+      "log_cancel",
+      "Cancel"
+    ],
+    [
+      "log_update",
+      "Update entry"
+    ],
+    [
+      "log_saved_offline",
+      "Saved offline. Will sync when connected."
+    ],
+    [
+      "log_empty",
+      "No entries yet."
+    ],
+    [
+      "sync_pending",
+      "Offline"
+    ],
+    [
+      "sync_done",
+      "All synced"
+    ],
+    [
+      "Work out how much to buy",
+      "Work out how much to buy"
+    ],
+    [
+      "Look up plant symptoms",
+      "Look up plant symptoms"
+    ],
+    [
+      "Keep your farm records",
+      "Keep your farm records"
+    ],
+    [
+      "Skip to main content",
+      "Skip to main content"
+    ],
+    [
+      "Farm tools",
+      "Farm tools"
+    ],
+    [
+      "Your farm tools",
+      "Your farm tools"
+    ],
+    [
+      "Made for the field",
+      "Made for the field"
+    ],
+    [
+      "Calculator and plant checks work without internet.",
+      "Calculator and plant checks work without internet."
+    ],
+    [
+      "We could not open your records. Try again. If this continues, check that your browser allows storage for this app.",
+      "We could not open your records. Try again. If this continues, check that your browser allows storage for this app."
+    ],
+    [
+      "Keep a simple record of planting, feeding and harvesting.",
+      "Keep a simple record of planting, feeding and harvesting."
+    ],
+    [
+      "Loading your records",
+      "Loading your records"
+    ],
+    [
+      "Loading your records…",
+      "Loading your records…"
+    ],
+    [
+      "Your records are protected",
+      "Your records are protected"
+    ],
+    [
+      "Use the passphrase controls above to open your logbook or create one.",
+      "Use the passphrase controls above to open your logbook or create one."
+    ],
+    [
+      "Enter an activity, such as Planted maize.",
+      "Enter an activity, such as Planted maize."
+    ],
+    [
+      "Saved encrypted on this phone.",
+      "Saved encrypted on this phone."
+    ],
+    [
+      "Saved encrypted on this phone and queued for cloud sync.",
+      "Saved encrypted on this phone and queued for cloud sync."
+    ],
+    [
+      "Planting",
+      "Planting"
+    ],
+    [
+      "Fertilizing",
+      "Fertilizing"
+    ],
+    [
+      "Pest Control",
+      "Pest Control"
+    ],
+    [
+      "Harvest",
+      "Harvest"
+    ],
+    [
+      "Local-Only: keep this record on my phone",
+      "Local-Only: keep this record on my phone"
+    ],
+    [
+      "A previously shared cloud copy will be deleted when sync succeeds.",
+      "A previously shared cloud copy will be deleted when sync succeeds."
+    ],
+    [
+      "You agree to upload this encrypted record to your account. You can withdraw sharing later.",
+      "You agree to upload this encrypted record to your account. You can withdraw sharing later."
+    ],
+    [
+      "Saving…",
+      "Saving…"
+    ],
+    [
+      "Add your first activity using the form above. Your entries will appear here.",
+      "Add your first activity using the form above. Your entries will appear here."
+    ],
+    [
+      "Cloud removal pending",
+      "Cloud removal pending"
+    ],
+    [
+      "Local-Only",
+      "Local-Only"
+    ],
+    [
+      "Synced",
+      "Synced"
+    ],
+    [
+      "Queued for sync",
+      "Queued for sync"
+    ],
+    [
+      "Server timestamp:",
+      "Server timestamp:"
+    ],
+    [
+      "Review the cloud copy and the phone entry above. You can edit the phone entry to combine changes before choosing which version to keep. Local-Only records retain their phone content.",
+      "Review the cloud copy and the phone entry above. You can edit the phone entry to combine changes before choosing which version to keep. Local-Only records retain their phone content."
+    ],
+    [
+      "Review cloud copy",
+      "Review cloud copy"
+    ],
+    [
+      "Cloud copy",
+      "Cloud copy"
+    ],
+    [
+      "No live cloud copy.",
+      "No live cloud copy."
+    ],
+    [
+      "Use the reviewed cloud version and discard pending edits? Local-Only records keep their phone content and retry cloud removal.",
+      "Use the reviewed cloud version and discard pending edits? Local-Only records keep their phone content and retry cloud removal."
+    ],
+    [
+      "Use cloud version / retry removal",
+      "Use cloud version / retry removal"
+    ],
+    [
+      "Upload the current phone version to replace the reviewed cloud copy?",
+      "Upload the current phone version to replace the reviewed cloud copy?"
+    ],
+    [
+      "Keep current phone version",
+      "Keep current phone version"
+    ],
+    [
+      "Reload records",
+      "Reload records"
+    ],
+    [
+      "Delete this entry?",
+      "Delete this entry?"
+    ],
+    [
+      "This removes the entry from your logbook. You cannot undo it.",
+      "This removes the entry from your logbook. You cannot undo it."
+    ],
+    [
+      "Something needs your attention",
+      "Something needs your attention"
+    ],
+    [
+      "Done",
+      "Done"
+    ],
+    [
+      "Simple tools for your farm",
+      "Simple tools for your farm"
+    ],
+    [
+      "Language",
+      "Language"
+    ],
+    [
+      "Enter a field size of at least 0.01 hectares. For example, enter 2 for two hectares.",
+      "Enter a field size of at least 0.01 hectares. For example, enter 2 for two hectares."
+    ],
+    [
+      "We could not calculate this amount. Check your field size and try again.",
+      "We could not calculate this amount. Check your field size and try again."
+    ],
+    [
+      "Choose your crop and fertilizer. Enter your field size to work out the amount you need.",
+      "Choose your crop and fertilizer. Enter your field size to work out the amount you need."
+    ],
+    [
+      "Sample estimates only. Confirm amounts with your local agricultural adviser before use.",
+      "Sample estimates only. Confirm amounts with your local agricultural adviser before use."
+    ],
+    [
+      "Your field details",
+      "Your field details"
+    ],
+    [
+      "Use hectares. For example: 1 or 2.5.",
+      "Use hectares. For example: 1 or 2.5."
+    ],
+    [
+      "Your estimated amount",
+      "Your estimated amount"
+    ],
+    [
+      "Calculated for",
+      "Calculated for"
+    ],
+    [
+      "ha. Changing your details clears this estimate.",
+      "ha. Changing your details clears this estimate."
+    ],
+    [
+      "Your estimate will appear here",
+      "Your estimate will appear here"
+    ],
+    [
+      "Fill in your field details, then press Calculate.",
+      "Fill in your field details, then press Calculate."
+    ],
+    [
+      "Possible cause · sample information",
+      "Possible cause · sample information"
+    ],
+    [
+      "diag_action_label",
+      "What to do:"
+    ],
+    [
+      "dose_label",
+      "Sample practical dose:"
+    ],
+    [
+      "Look at your plant, then choose the symptom that matches.",
+      "Look at your plant, then choose the symptom that matches."
+    ],
+    [
+      "Sample information only. Confirm the problem with an agricultural adviser before treatment.",
+      "Sample information only. Confirm the problem with an agricultural adviser before treatment."
+    ]
+  ],
+  [
+    [
+      "Cannot check saved records. Reload the page to try again.",
+      "Cannot check saved records. Reload the page to try again."
+    ],
+    [
+      "Sync could not finish. Your saved records stay on this phone. Try again when connected.",
+      "Sync could not finish. Your saved records stay on this phone. Try again when connected."
+    ],
+    [
+      "Online",
+      "Online"
+    ],
+    [
+      "Offline — tools still work",
+      "Offline — tools still work"
+    ],
+    [
+      "Syncing…",
+      "Syncing…"
+    ],
+    [
+      "Sync now",
+      "Sync now"
+    ],
+    [
+      "We could not access logbook storage. Check your browser storage settings and reload this page.",
+      "We could not access logbook storage. Check your browser storage settings and reload this page."
+    ],
+    [
+      "Use different values for your account password and encryption passphrase.",
+      "Use different values for your account password and encryption passphrase."
+    ],
+    [
+      "Create your local vault before registering.",
+      "Create your local vault before registering."
+    ],
+    [
+      "Signed in. Only records you choose to share will upload.",
+      "Signed in. Only records you choose to share will upload."
+    ],
+    [
+      "Logbook unlocked",
+      "Logbook unlocked"
+    ],
+    [
+      "Unlock your logbook",
+      "Unlock your logbook"
+    ],
+    [
+      "Protect your logbook",
+      "Protect your logbook"
+    ],
+    [
+      "Your encryption passphrase stays on this phone. Keep it safe: a forgotten passphrase cannot be recovered. Use a separate password for your account.",
+      "Your encryption passphrase stays on this phone. Keep it safe: a forgotten passphrase cannot be recovered. Use a separate password for your account."
+    ],
+    [
+      "Passphrases do not match.",
+      "Passphrases do not match."
+    ],
+    [
+      "Use at least 12 characters, such as several words you can remember.",
+      "Use at least 12 characters, such as several words you can remember."
+    ],
+    [
+      "Encryption passphrase",
+      "Encryption passphrase"
+    ],
+    [
+      "Confirm new passphrase",
+      "Confirm new passphrase"
+    ],
+    [
+      "Please wait…",
+      "Please wait…"
+    ],
+    [
+      "Unlock offline",
+      "Unlock offline"
+    ],
+    [
+      "Create local vault",
+      "Create local vault"
+    ],
+    [
+      "Lock logbook",
+      "Lock logbook"
+    ],
+    [
+      "Back up encrypted records",
+      "Back up encrypted records"
+    ],
+    [
+      "Restore an encrypted backup (enter its passphrase above). Records restore as Local-Only; signing in later removes any existing cloud copies.",
+      "Restore an encrypted backup (enter its passphrase above). Records restore as Local-Only; signing in later removes any existing cloud copies."
+    ],
+    [
+      "Backup is too large.",
+      "Backup is too large."
+    ],
+    [
+      "Optional cloud account",
+      "Optional cloud account"
+    ],
+    [
+      "Enter your encryption passphrase above to connect or restore your vault. Local-Only records stay on the phone. HTTPS protects your account details; the server stores encrypted field records.",
+      "Enter your encryption passphrase above to connect or restore your vault. Local-Only records stay on the phone. HTTPS protects your account details; the server stores encrypted field records."
+    ],
+    [
+      "Email",
+      "Email"
+    ],
+    [
+      "Account password (at least 12 characters)",
+      "Account password (at least 12 characters)"
+    ],
+    [
+      "Sign in",
+      "Sign in"
+    ],
+    [
+      "Register this vault",
+      "Register this vault"
+    ],
+    [
+      "Signed out. Local records are retained.",
+      "Signed out. Local records are retained."
+    ],
+    [
+      "Sign out",
+      "Sign out"
+    ],
+    [
+      "Account does not match this vault.",
+      "Account does not match this vault."
+    ],
+    [
+      "Readable export downloaded. This file contains unencrypted personal information.",
+      "Readable export downloaded. This file contains unencrypted personal information."
+    ],
+    [
+      "Export readable cloud data",
+      "Export readable cloud data"
+    ],
+    [
+      "Delete your cloud account and its records? Local records stay on this phone. This cannot be undone.",
+      "Delete your cloud account and its records? Local records stay on this phone. This cannot be undone."
+    ],
+    [
+      "Cloud account deleted. Local records are retained.",
+      "Cloud account deleted. Local records are retained."
+    ],
+    [
+      "Delete cloud account",
+      "Delete cloud account"
+    ],
+    [
+      "Please wait. We are processing your request…",
+      "Please wait. We are processing your request…"
+    ],
+    [
+      "Cancel",
+      "Cancel"
+    ],
+    [
+      "Deleting…",
+      "Deleting…"
+    ],
+    [
+      "Delete entry",
+      "Delete entry"
+    ],
+    [
+      "Incorrect vault.",
+      "Incorrect vault."
+    ],
+    [
+      "Use a passphrase of at least 12 characters. Keep it safe: we cannot recover it.",
+      "Use a passphrase of at least 12 characters. Keep it safe: we cannot recover it."
+    ],
+    [
+      "Unsupported vault format.",
+      "Unsupported vault format."
+    ],
+    [
+      "Passphrase incorrect or vault damaged.",
+      "Passphrase incorrect or vault damaged."
+    ],
+    [
+      "This phone contains another vault. Export it before using a different account.",
+      "This phone contains another vault. Export it before using a different account."
+    ],
+    [
+      "Unlock and export your existing local entries before restoring another vault.",
+      "Unlock and export your existing local entries before restoring another vault."
+    ],
+    [
+      "Unlock your logbook first.",
+      "Unlock your logbook first."
+    ],
+    [
+      "Entry no longer available.",
+      "Entry no longer available."
+    ],
+    [
+      "This record changed while you were editing. Reopen it and review the latest content before saving.",
+      "This record changed while you were editing. Reopen it and review the latest content before saving."
+    ],
+    [
+      "Invalid backup.",
+      "Invalid backup."
+    ],
+    [
+      "Restore requires a phone without an existing vault.",
+      "Restore requires a phone without an existing vault."
+    ],
+    [
+      "This browser needs Web Locks support for safe storage and sync. Use a current browser over HTTPS or localhost.",
+      "This browser needs Web Locks support for safe storage and sync. Use a current browser over HTTPS or localhost."
+    ],
+    [
+      "Request failed.",
+      "Request failed."
+    ],
+    [
+      "Sign in to enable cloud sync.",
+      "Sign in to enable cloud sync."
+    ],
+    [
+      "Waiting to retry.",
+      "Waiting to retry."
+    ],
+    [
+      "Signed-in account does not match this vault.",
+      "Signed-in account does not match this vault."
+    ],
+    [
+      "Session expired. Sign in again to sync.",
+      "Session expired. Sign in again to sync."
+    ],
+    [
+      "Could not verify cloud account.",
+      "Could not verify cloud account."
+    ],
+    [
+      "Queue belongs to another vault.",
+      "Queue belongs to another vault."
+    ],
+    [
+      "Sync conflict. Review the record before continuing.",
+      "Sync conflict. Review the record before continuing."
+    ],
+    [
+      "Connection failed. Encrypted changes are queued.",
+      "Connection failed. Encrypted changes are queued."
+    ],
+    [
+      "Invalid sync acknowledgement.",
+      "Invalid sync acknowledgement."
+    ],
+    [
+      "Cloud removal queued.",
+      "Cloud removal queued."
+    ],
+    [
+      "Cloud removal requires another sync attempt.",
+      "Cloud removal requires another sync attempt."
+    ],
+    [
+      "Cloud sync complete.",
+      "Cloud sync complete."
+    ],
+    [
+      "Could not download cloud changes.",
+      "Could not download cloud changes."
+    ],
+    [
+      "Pending record must be resolved before downloading.",
+      "Pending record must be resolved before downloading."
+    ],
+    [
+      "Account does not match vault.",
+      "Account does not match vault."
+    ],
+    [
+      "The cloud record changed again. Review the latest copy before choosing.",
+      "The cloud record changed again. Review the latest copy before choosing."
+    ],
+    [
+      "Use application/json.",
+      "Use application/json."
+    ],
+    [
+      "Request too large.",
+      "Request too large."
+    ],
+    [
+      "JSON object required.",
+      "JSON object required."
+    ],
+    [
+      "Invalid JSON object.",
+      "Invalid JSON object."
+    ],
+    [
+      "PUBLIC_ORIGIN must use HTTPS in production.",
+      "PUBLIC_ORIGIN must use HTTPS in production."
+    ],
+    [
+      "Database schema is newer than this server supports.",
+      "Database schema is newer than this server supports."
+    ],
+    [
+      "Method not allowed.",
+      "Method not allowed."
+    ],
+    [
+      "Not found.",
+      "Not found."
+    ],
+    [
+      "Build the frontend with npm run build.",
+      "Build the frontend with npm run build."
+    ],
+    [
+      "Origin denied.",
+      "Origin denied."
+    ],
+    [
+      "Cross-site request denied.",
+      "Cross-site request denied."
+    ],
+    [
+      "Missing request protection header.",
+      "Missing request protection header."
+    ],
+    [
+      "Try again shortly.",
+      "Try again shortly."
+    ],
+    [
+      "Use a valid email and a password of 12 to 128 characters.",
+      "Use a valid email and a password of 12 to 128 characters."
+    ],
+    [
+      "Invalid encrypted vault.",
+      "Invalid encrypted vault."
+    ],
+    [
+      "Email or vault already registered.",
+      "Email or vault already registered."
+    ]
+  ],
+  [
+    [
+      "Email or password incorrect.",
+      "Email or password incorrect."
+    ],
+    [
+      "Sign in to sync.",
+      "Sign in to sync."
+    ],
+    [
+      "Password required.",
+      "Password required."
+    ],
+    [
+      "Password incorrect.",
+      "Password incorrect."
+    ],
+    [
+      "Invalid cursor.",
+      "Invalid cursor."
+    ],
+    [
+      "Invalid encrypted mutation.",
+      "Invalid encrypted mutation."
+    ],
+    [
+      "BEGIN IMMEDIATE",
+      "BEGIN IMMEDIATE"
+    ],
+    [
+      "Mutation ID reused with different content.",
+      "Mutation ID reused with different content."
+    ],
+    [
+      "Record changed on another device. Review the conflict.",
+      "Record changed on another device. Review the conflict."
+    ],
+    [
+      "Server error.",
+      "Server error."
+    ],
+    [
+      "AgriPulse backend listening on port ",
+      "AgriPulse backend listening on port "
+    ],
+    [
+      "crop_maize",
+      "Maize"
+    ],
+    [
+      "crop_tomato",
+      "Tomato"
+    ],
+    [
+      "estimate_context",
+      "Calculated for {{area}} ha. Changing your details clears this estimate."
+    ],
+    [
+      "pending_count",
+      "{{count}} pending."
+    ]
+  ]
+]

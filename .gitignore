@@ -33,3 +33,5 @@ test-results/
 
 mock-data/
 .vercel/
+.tools/
+archive/*.zip

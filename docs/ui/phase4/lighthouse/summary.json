@@ -1,0 +1,374 @@
+[
+  {
+    "width": 360,
+    "name": "Language",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Farm details",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Farm crops",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Farm size",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Farm review",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Crop home",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Crop choice",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Maize introduction",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "FAW observation 1",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "FAW observation 2",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "FAW observation 3",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "FAW result with immediate guidance",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 1",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 2",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 3",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 4",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 5",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Management 6",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Calculator crop",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Calculator product",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Calculator area",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Calculator review",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Calculator result",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Protected record home",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Record passphrase",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Empty records",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Entry activity",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Entry notes",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Entry sharing",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Saved entry",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 360,
+    "name": "Record settings",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Language",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Farm details",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Farm crops",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Farm size",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Farm review",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Crop home",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Crop choice",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Maize introduction",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "FAW observation 1",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "FAW observation 2",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "FAW observation 3",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "FAW result with immediate guidance",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 1",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 2",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 3",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 4",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 5",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Management 6",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Calculator crop",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Calculator product",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Calculator area",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Calculator review",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Calculator result",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Protected record home",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Record passphrase",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Empty records",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Entry activity",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Entry notes",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Entry sharing",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Saved entry",
+    "score": 100,
+    "failures": []
+  },
+  {
+    "width": 1366,
+    "name": "Record settings",
+    "score": 100,
+    "failures": []
+  }
+]

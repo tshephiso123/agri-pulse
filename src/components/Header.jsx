@@ -3,7 +3,7 @@ import { setLanguage } from '../utils/i18n';
 
 const languages = [
   { code: 'en', name: 'English' },
-  { code: 'se', name: 'Sepedi' },
+  { code: 'nso', name: 'Sepedi' },
   { code: 've', name: 'Tshivenda' },
   { code: 'ts', name: 'Xi' + 'tsonga' }
 ];

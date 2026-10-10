@@ -22,11 +22,17 @@
     "dev:api": "node server/dev.mjs"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.2.0",
+    "@radix-ui/react-slot": "^1.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "dexie": "^4.4.6",
     "i18next": "^26.4.2",
+    "lucide-react": "^1.54.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-i18next": "^17.0.16"
+    "react-i18next": "^17.0.16",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

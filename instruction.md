@@ -21,7 +21,7 @@ Use Node 24. Run npm ci, npm run build, npm start. Open http://localhost:4173; t
 
 For the refreshed interface, check 320px and 390px widths, full-name language dropdown persistence after reload, keyboard focus, and navigation across all five tools. No external fonts or image requests are required.
 
-Automated checks: npm test (16 tests), npm run lint, npm run build. Browser checks cover account-free offline field tools, local-file kit operation without HTTP requests, offline persistence and recovery, worker queue execution and conflicts. See test output for latest execution status.
+Automated checks: npm test (20 tests including incoming localization checks), npm run lint, npm run build:vercel. Browser checks cover account-free offline field tools, local-file kit operation without HTTP requests, offline persistence and recovery, worker queue execution and conflicts. See test output for latest execution status.
 
 Required device checks still pending: low-end Android installation and cold launch, small-screen readability, all language choices, local HTML opening via file manager, phone-to-phone transfer, destruction/replacement recovery, measured-cap usability. Native speakers must review existing translations and translate new guidance, which currently falls back to English.
 
